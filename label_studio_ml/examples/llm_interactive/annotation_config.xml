@@ -1,0 +1,347 @@
+<View style="height: 88vh">
+<View style=" padding: 20px; background: #FAFAFA; opacity: 1.0; width: 30%;
+    float: left;
+    padding: 20px; overflow-y: scroll; height: 100%">
+  <Header value="Case:" size="4"/>
+  	<Text name="source" value="$source"/>
+  <Header value="Is this a relevant case related to worker classification?" size="4"/>
+   <Header value="Note: Relevant cases contains a court applying the law to the facts and rendering a final decision on the worker's status" size="20"/>
+    <Choices name="valid" toName="text" choice="single" showInLine="true">
+      <Choice value="YES"/>
+    <Choice value="NO"/>
+  </Choices>
+  <View visibleWhen="choice-selected" whenTagName="valid" whenChoiceValue="YES">
+   
+  	<Header value="Relevant factors - click and highlight text" size="4"/>
+    <HyperTextLabels name="relevant-text" toName="text" choice="multiple">
+      <Label value="Case Name"/>
+      <Label value="Case Number"/>
+      <Label value="Date"/>
+      <Label value="Legislation/Regulation in Dispute (if any)"/>
+      <Label value="Overturned Decision (Case Number)"/>
+    </HyperTextLabels>
+    <Header value="What is the length of employment" size="6"/>
+    <HyperTextLabels name="Length of Employment-text" toName="text" choice="multiple">
+      <Label value="Length of Employment"/>
+    </HyperTextLabels>
+    <TextArea name="LOE" editable="true" toName="text" rows="1"/>
+    <Header value="Choose factors on the scale." size="4"/>
+      <!-- Copy paste from here-->
+	<Header value="(Tri-lateral relationship) Does the worker provide services under an independent service company/entity?" size="6"/>
+    <HyperTextLabels name="Tri-lateral relationship-text" toName="text" choice="multiple">
+      <Label value="Tri-lateral relationship"/>
+    </HyperTextLabels>
+    <Choices name="Tri-lateral relationship" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Managerial Role) Is the worker in a managerial role?" size="6"/>
+    <HyperTextLabels name="Managerial Role-text" toName="text" choice="multiple">
+      <Label value="Managerial Role"/>
+    </HyperTextLabels>
+    <Choices name="Managerial Role" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Upper/Executive Management"/>
+        <Choice value="2 - Middle Management"/>
+        <Choice value="3 - Operational/Lower Management"/>
+        <Choice value="4 - No"/>
+        <Choice value="5 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Commitment) Is there a contract in place stating the employment relationship with the worker?" size="6"/>
+    <HyperTextLabels name="committment-text" toName="text" choice="multiple">
+      <Label value="Committment"/>
+    </HyperTextLabels>
+      <Choices name="committment" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Written contract stating employee relationship"/>
+        <Choice value="2 - Oral contract stating employee relationship"/>
+        <Choice value="3 - Oral contract stating contractor relationship"/>
+        <Choice value="4 - Written contract stating contractor relationship"/>
+        <Choice value="5 - Written contract without relationship stated"/>
+        <Choice value="6 - Oral Contract without relationship stated"/>
+        <Choice value="7 - None"/>
+        <Choice value="8 - Not Applicable/Not Considered"/>
+      </Choices>
+      <Header value="(Contract) What is the type of contract established with the worker?" size="6"/>
+    <HyperTextLabels name="contract-text" toName="text" choice="multiple">
+      <Label value="Contract"/>
+    </HyperTextLabels>
+      <Choices name="contract" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Indefinite Full-Time Contract"/>
+        <Choice value="2 - Indefinite Part-Time Contract"/>
+        <Choice value="3 - Fixed Term Full-Time Contract"/>
+        <Choice value="4 - Fixed Term Part-Time Contract"/>
+        <Choice value="5 - Other"/>
+        <Choice value="6 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Termination) Is the work relationship terminated after a fixed date or after completion of the set objectives/tasks?" size="6"/>
+    <HyperTextLabels name="Termination Date-text" toName="text" choice="multiple">
+      <Label value="Termination Date"/>
+    </HyperTextLabels>  
+    <Choices name="Termination Date" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Minimum Pay or Work) Is the worker guaranteed a minimum amount of work or pay?" size="6"/>
+    <HyperTextLabels name="Minimum Pay or Work-text" toName="text" choice="multiple">
+      <Label value="Minimum Pay or Work"/>
+    </HyperTextLabels>      
+      <Choices name="Minimum Pay or Work" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes, work only"/>
+        <Choice value="2 - Yes, pay only"/>
+        <Choice value="3 - Yes, both pay and work"/>
+        <Choice value="4 - No"/>
+        <Choice value="5 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Insurance) Who supplies the occupation liability insurance coverage?" size="6"/>
+    <HyperTextLabels name="Insurance-text" toName="text" choice="multiple">
+      <Label value="Insurance"/>
+    </HyperTextLabels>  
+      <Choices name="Insurance" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Worker solely supplies liability insurance"/>
+        <Choice value="2 - Both Worker and Principal contributes to liability insurance"/>
+        <Choice value="3 - Hirer solely supplies liability insurance"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Employment Benefits) Is the worker given any employment benefits (Paid time off/Vacation, health and dental benefits, and etc)?" size="6"/>
+    <HyperTextLabels name="Employment Benefits-text" toName="text" choice="multiple">
+      <Label value="Employment Benefits"/>
+    </HyperTextLabels>    
+      <Choices name="Employment Benefits" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes, all benefits normally given to employees"/>
+        <Choice value="2 - Yes, some benefits normally given to employees"/>
+        <Choice value="3 - No"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Independence) Can the Worker operate and advertise its own business for the services rendered?" size="6"/>
+    <HyperTextLabels name="Independence-text" toName="text" choice="multiple">
+      <Label value="Independence"/>
+    </HyperTextLabels>      
+      <Choices name="Independence" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes, and the Worker does in practice"/>
+        <Choice value="2 - Yes, the Worker is capable but DOES NOT in practice"/>
+        <Choice value="3 - No"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Selection) Is the worker hired for their unique skills, expertise, or talent that distinguishes them from ordinary employees?" size="6"/>
+    <HyperTextLabels name="Selection-text" toName="text" choice="multiple">
+      <Label value="Selection"/>
+    </HyperTextLabels>    
+      <Choices name="Selection" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Integration) Is the worker performing activities which are usually necessary or desirable in the usual business or trade of the Hirer?" size="6"/>
+    <HyperTextLabels name="Integration-text" toName="text" choice="multiple">
+      <Label value="Integration"/>
+    </HyperTextLabels>      
+      <Choices name="Integration" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Training) Does the Worker require any additional training or education by the Hirer to perform their function?" size="6"/>
+    <HyperTextLabels name="Training-text" toName="text" choice="multiple">
+      <Label value="Training"/>
+    </HyperTextLabels>      
+      <Choices name="Training" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes, the Worker requires substantial training or education necessary for their job"/>
+        <Choice value="2 - Yes, the Worker requires some training or education ancillary for their job"/>
+        <Choice value="3 - No"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Remuneration) How is the worker remunerated?" size="6"/>
+    <HyperTextLabels name="Remuneration-text" toName="text" choice="multiple">
+      <Label value="Remuneration"/>
+    </HyperTextLabels>      
+      <Choices name="Remuneration" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Salary/Fixed Wages only without bonus"/>
+        <Choice value="2 - Salary/Fixed Wages with opportunity for incentives"/>
+        <Choice value="3 - Mix of salary and paid by commission/per task without incentives"/>
+        <Choice value="4 - Mix of salary and paid by commission/per task with opportunity for incentives"/>
+        <Choice value="5 - Paid by Commission/per task only without incentives"/>
+        <Choice value="6 - Paid by Commission/per task with opportunity for incentives"/>
+        <Choice value="7 - Not Applicable/Not Considered"/>
+      </Choices>
+   <Header value="(Payment Procedure) Is the worker required to submit invoices for payment?" size="6"/>
+    <HyperTextLabels name="Payment Procedure-text" toName="text" choice="multiple">
+      <Label value="Payment Procedure"/>
+    </HyperTextLabels>      
+      <Choices name="Payment Procedure" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Opportunity for Loss) Is the worker liable for any financial loss?" size="6"/>
+    <HyperTextLabels name="Opportunity for Loss-text" toName="text" choice="multiple">
+      <Label value="Opportunity for Loss"/>
+    </HyperTextLabels>      
+    <Choices name="Opportunity for Loss" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - No risk"/>
+        <Choice value="2 - Minor risk (pays for some expenses/have some money invested, but not liable for losses to the Hirer's business)"/>
+        <Choice value="3 - High risk (pays for expenses/have money invested, AND liable for lossess to Hirer's business"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+        <Header value="(Third Party Risk) Is the worker personally liable for damages caused to third parties as a result of carrying on their duties" size="6"/>
+    <HyperTextLabels name="Third Party Risk-text" toName="text" choice="multiple">
+      <Label value="Third Party Risk"/>
+    </HyperTextLabels>      
+    <Choices name="Third Party Risk" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Withholdings) Does the Hirer list the worker on payroll and/or withhold taxes and other statutory contributions, including but not limited to, Social Security Systems, Health Insurance, Employment Insurance?" size="6"/>
+    <HyperTextLabels name="Withholdings-text" toName="text" choice="multiple">
+      <Label value="Withholdings"/>
+    </HyperTextLabels>      
+      <Choices name="Withholdings" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+	<Header value="(Supervision) Is the Worker supervised by the Hirer?" size="6"/>
+    <HyperTextLabels name="Supervision-text" toName="text" choice="multiple">
+      <Label value="Supervision"/>
+    </HyperTextLabels>      
+      <Choices name="Supervision" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+	<Header value="(Disciplinary Action) Is the Worker subject to disciplinary action by the Hirer?" size="6"/>
+    <HyperTextLabels name="Disciplinary Action-text" toName="text" choice="multiple">
+      <Label value="Disciplinary Action"/>
+    </HyperTextLabels>      
+      <Choices name="Disciplinary Action" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+      </Choices>
+  	<Header value="(Compliance) Does the Hirer have an obligation to ensure that the Worker complies with local laws?" size="6"/>
+    <HyperTextLabels name="Compliance-text" toName="text" choice="multiple">
+      <Label value="Compliance"/>
+    </HyperTextLabels>      
+      <Choices name="Compliance" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes, the hirer is required to verify that the worker is complying with local laws and regulation"/>
+        <Choice value="2 - No, the hirer is not required to ensure that the worker complies with local laws"/>
+        <Choice value="3 - No, the worker can refuse to disclosure these information"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Allocation of Work) Which party decides what work is done?" size="6"/>
+    <HyperTextLabels name="Allocation of Work-text" toName="text" choice="multiple">
+      <Label value="Allocation of Work"/>
+    </HyperTextLabels>      
+      <Choices name="Allocation of Work" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - The Hirer assigns work, and it cannot be turned down by the Worker"/>
+        <Choice value="2 - The Hirer assigns work, but it can be turned down by the Worker"/>
+        <Choice value="3 - The Worker decides the work with approval from the Hirer"/>
+        <Choice value="4 - The Worker decides the work WITHOUT approval"/>
+        <Choice value="5 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Manner of Work) Which party decides how the work is done?" size="6"/>
+    <HyperTextLabels name="Manner of Work-text" toName="text" choice="multiple">
+      <Label value="Manner of Work"/>
+    </HyperTextLabels>      
+      <Choices name="Manner of Work" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - The Hirer gives instructions on how to perform the task and the Worker must comply"/>
+        <Choice value="2 - The Worker decides how to complete the task, but must comply with the requirements set by the Hirer or seek permission from the Hirer"/>
+        <Choice value="3 - The Worker is free to chose how to complete the task without restrictions"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Work Hours) Which party controls the work hours?" size="6"/>
+    <HyperTextLabels name="Work Hours-text" toName="text" choice="multiple">
+      <Label value="Work Hours"/>
+    </HyperTextLabels>      
+      <Choices name="Work Hours" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - The Hirer sets the work schedule and work hours"/>
+        <Choice value="2 - The Hirer sets the work hours, but the Worker sets the schedule"/>
+        <Choice value="3 - The Worker sets the work hours, but the Hirer sets the schedule"/>
+        <Choice value="4 - The Worker sets their own schedule and work hours"/>
+        <Choice value="5 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Work Location) Which party decides the work location?" size="6"/>
+    <HyperTextLabels name="Work Location-text" toName="text" choice="multiple">
+      <Label value="Work Location"/>
+    </HyperTextLabels>      
+    <Choices name="Work Location" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - The Hirer sets the work location"/>
+        <Choice value="2 - The Worker sets the work location with permission from the Hirer"/>
+        <Choice value="3 - The Worker sets the work location without permission"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Ownership of Resources) Which party supplies the resources needed for the job (i.e. tools, equipment, machines, work premises, and supervision)?" size="6"/>
+    <HyperTextLabels name="Ownership of Resources-text" toName="text" choice="multiple">
+      <Label value="Ownership of Resources"/>
+    </HyperTextLabels>  
+    <Choices name="Ownership of Resources" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - The Hirer owns/provides all of the resources"/>
+        <Choice value="2 - The Hirer owns/provides most of the resources, but not all the necessary ones"/>
+        <Choice value="3 - Both Parties own/provide equal proportions of resources"/>
+        <Choice value="4 - The Worker owns/provides most of the resources, but not all the necessary ones"/>
+        <Choice value="5 - The Worker owns/provides all of the resources"/>
+        <Choice value="6 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Distinction) Is the Worker integrated or held out as part of the hiring organization?" size="6"/>
+    <HyperTextLabels name="Distinction-text" toName="text" choice="multiple">
+      <Label value="Distinction"/>
+    </HyperTextLabels>
+    <Choices name="Distinction" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - High Level of Integration (Required to wear uniform, listed on company directories, held out as employee etc.)"/>
+        <Choice value="2 - Some Level of Integration (Business cards, email addresses, badges etc.)"/>
+        <Choice value="3 - No Integration (Nothing associating worker as part of business)"/>
+        <Choice value="4 - Not Applicable/Not Considered"/>
+      </Choices>
+    <Header value="(Exclusivity) Does the worker take on additional jobs with others?" size="6"/>
+    <HyperTextLabels name="Exclusivity-text" toName="text" choice="multiple">
+      <Label value="Exclusivity"/>
+    </HyperTextLabels>  
+    <Choices name="Exclusivity" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - No, the worker works exclusively for the Hirer"/>
+        <Choice value="2 - No, but the worker can others WITH permission from the Hirer"/>
+        <Choice value="3 - No, but the worker can work for others WITHOUT permission"/>
+        <Choice value="4 - Yes, the worker works equal amounts with the hirer and others"/>
+        <Choice value="5 - Yes, the worker does majority of work for others"/>
+        <Choice value="6 - Not Applicable/Not Considered"/>
+    </Choices>
+    <Header value="(Delegation) Is the worker able to subcontract work/hire workers?" size="6"/>
+    <HyperTextLabels name="Delegation-text" toName="text" choice="multiple">
+      <Label value="Delegation"/>
+    </HyperTextLabels>  
+    <Choices name="Delegation" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes, with permission from the Principal Hirer"/>
+        <Choice value="2 - Yes, without permission"/>
+        <Choice value="3 - Yes, Permission unstated"/>
+        <Choice value="4 - No"/>
+        <Choice value="5 - Not Applicable/Not Considered"/>
+  	</Choices>
+        <Header value="(Labor Union) Is the worker associated with a labor union?" size="6"/>
+    <HyperTextLabels name="union-text" toName="text" choice="multiple">
+      <Label value="Union"/>
+    </HyperTextLabels>  
+    <Choices name="Union" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Yes, with permission from the Principal Hirer"/>
+        <Choice value="2 - No"/>
+        <Choice value="3 - Not Applicable/Not Considered"/>
+  	</Choices>
+    <Header value="(Worker Status) What is the worker's status?" size="6"/>
+    <HyperTextLabels name="Worker Status-text" toName="text" choice="multiple">
+      <Label value="Worker Status"/>
+    </HyperTextLabels>
+    <Choices name="Worker Status" toName="text" choice="single" showInLine="true">
+        <Choice value="1 - Employee"/>
+        <Choice value="2 - Indepedent Contractor"/>
+      </Choices>
+    <Header value="Comments" size="6"/>
+    <TextArea name="Comments" editable="true" toName="text" rows="6"/>
+  </View>
+  </View>
+
+  
+  <View style="border: 1px solid #CCC; border-radius: 10px;  width: 70%;
+    float: left;
+    padding: 20px; overflow-y: scroll; height: 100%">
+    <HyperText name="text" value="$html"/>
+  </View>
+</View>

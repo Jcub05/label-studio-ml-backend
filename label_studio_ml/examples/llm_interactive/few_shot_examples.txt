@@ -1,0 +1,771 @@
+﻿============================================================
+SOURCE: PN_MDN_141_2022  |  YEAR: 2022.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 2 - The Hirer assigns work, but it can be turned down by the Worker
+  committment: 7 - None
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 6 - Not Applicable/Not Considered
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 1 - Yes
+  Distinction: 2 - Some Level of Integration (Business cards, email addresses, badges etc.)
+  Employment Benefits: 3 - No
+  Exclusivity: 6 - Not Applicable/Not Considered
+  Independence: 4 - Not Applicable/Not Considered
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 1 - Yes
+  Managerial Role: 4 - No
+  Manner of Work: 4 - Not Applicable/Not Considered
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 1 - The Hirer owns/provides all of the resources
+  Payment Procedure: 2 - No
+  Remuneration: 5 - Paid by Commission/per task only without incentives
+  Selection: 1 - Yes
+  Supervision: 1 - Yes
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 2 - Yes, the Worker requires some training or education ancillary for their job
+  Tri-lateral relationship: 3 - Not Applicable/Not Considered
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 2 - No
+  Work Hours: 1 - The Hirer sets the work schedule and work hours
+  Work Location: 1 - The Hirer sets the work location
+  Worker Status: 2 - Indepedent Contractor
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 1-46 : " U T U S A N\n\nNomor 141/Pdt.Sus-PHI/2022/PN Mdn"
+  [Case Name] @ 312-330 : "MARIHOT SITUMORANG"
+  [Case Name] @ 1274-1291 : "PT. BELAWAN INDAH"
+  [Managerial Role] @ 47142-47164 : "Eks. Karyawan Tergugat"
+  [Managerial Role] @ 47190-47208 : "UNIT SUPIR BI-198,"
+  [Length of Employment] @ 47245-47344 : "25 November 2006 s/d tanggal 26 Juli 2021 atau Masa kerja 14 (empat belas) tahun 8 (delapan) bulan,"
+  [Managerial Role] @ 48056-48098 : "Supir Truck Trailer di perusahaan Tergugat"
+  [Length of Employment] @ 55610-55745 : "Masuk kerja terhitung sejak tanggal 25 November 2006 s/d tanggal 26 Juli 2021 atau Masa kerja 14 (empat belas) tahun 8 (delapan) bulan,"
+  [Work Hours] @ 56575-56733 : "diwajibkan masuk ke Kantor Tergugat pada hari Senin s/d hari Jumat Pukul 08.30 Wib s/d Pukul 17.00 Wib dan pada hari Sabtu Pukul 08.30 Wib s/d Pukul 12.30 Wib"
+  [Work Hours] @ 56756-56822 : "kehadiran perbulan sebanyak 24 (dua puluh empat) hari setiap bulan"
+  [Minimum Pay or Work] @ 56826-56907 : " Penggugat diwajibkan masuk kantor Tergugat menunggu perintah kerja dari Tergugat"
+  [Supervision] @ 56908-56990 : "melalui Mandor yang bernama REZA dan Penggugat dalam waktu menunggu Perintah Kerja"
+  [Remuneration] @ 56991-57012 : "diberikan Uang Makan "
+  [Ownership of Resources] @ 57016-57044 : "mencek kondisi Truck Trailer"
+  [Disciplinary Action] @ 57115-57388 : "maka Tergugat melakukan tindakan Sanksi Peringatan/Teguran Lisan maupun Tertulis kepada Penggugat, dan apabila juga tidak mengindahkannya, maka Tergugat mengancam akan melakukan Pemutusan Hubungan Kerja (PHK) Sepihak terhadap Penggugat dengan cara disuruh mengundurkan diri"
+  [Integration] @ 57407-57649 : "kegiatan usaha Tergugat adalah Jasa Pengangkutan/Transportasi ke Dalam Kota Medan maupun ke Luar Kota Medan, tentunya Tergugat dalam menjalankan kegiatan usahanya sangat memerlukan Penggugat sebagai Supir Truck Trailer di perusahaan Tergugat "
+  [Selection] @ 58091-58144 : "Surat Izin Mengemudi (SIM) Khusus Supir Truck Trailer"
+  [Training] @ 58091-58144 : "Surat Izin Mengemudi (SIM) Khusus Supir Truck Trailer"
+  [Work Location] @ 58210-58325 : "memerintahkan Penggugat bekerja untuk mengangkut dan mengantar barang ke Dalam Kota Medan maupun ke luar Kota Medan"
+  [Remuneration] @ 58330-58401 : "Tergugat memberikan imbalan kepada Penggugat berupa UPAH dan UANG JALAN"
+  [Withholdings] @ 58382-58401 : "UPAH dan UANG JALAN"
+  [Distinction] @ 58524-58640 : "Tergugat mengeluarkan bukti DRIVER ID CARD (Kartu Identitas Supir) selaku Supir Truck Trailer di perusahaan Tergugat"
+  [Minimum Pay or Work] @ 58693-58949 : "Menimbang, bahwa terhadap hubungan kerja antara Penggugat dengan Tergugat adalah sebagai supir truk trailer dengan system borongan yang dihitung dengan jarak tempuh dan upah yang membawa ditawarkan dan biayanya dinegosiasikan antara supir dengan Tergugat s"
+  [Employment Benefits] @ 58693-58949 : "Menimbang, bahwa terhadap hubungan kerja antara Penggugat dengan Tergugat adalah sebagai supir truk trailer dengan system borongan yang dihitung dengan jarak tempuh dan upah yang membawa ditawarkan dan biayanya dinegosiasikan antara supir dengan Tergugat s"
+  [Remuneration] @ 58807-58947 : " system borongan yang dihitung dengan jarak tempuh dan upah yang membawa ditawarkan dan biayanya dinegosiasikan antara supir dengan Tergugat"
+  [Withholdings] @ 58862-58948 : "upah yang membawa ditawarkan dan biayanya dinegosiasikan antara supir dengan Tergugat "
+  [Ownership of Resources] @ 59025-59092 : " bahwa yang diperuntukan kepada supir digunakan untuk pembelian BBM"
+  [Remuneration] @ 59094-59394 : "uang makan dll,dan untuk Perusahaan (ic. Tergugat) sebesar adalah bersumber dari Pihak Konsumen yang menggunakan jasa transportasi, sehingga supir tidak ada gaji atau upah baik harian, mingguan ataupun bulanan dari Tergugat justru melainkan dari bagi hasil ongkos borongan per tripnya dari konsumen ;"
+  [Remuneration] @ 59543-59729 : "Penggugat menerima jasa berupa uang yang sudah termasuk didalam pada saat pengambilan uang jalan, sebagaimana bukti surat berupa bukti pengambilan uang jalan yang diajukan oleh Tergugat "
+  [Payment Procedure] @ 59730-59971 : "Menimbang, bahwa supir tidak terikat dengan absensi kehadiran, dan apa bila supir dan kernek tidak cocok dengan ongkos maka borongan tidak jadi diserahkan, jika ada borongan ada kerja akan tetapi jika tidak ada borongan maka tidak ada kerja,"
+  [Allocation of Work] @ 59797-59970 : "apa bila supir dan kernek tidak cocok dengan ongkos maka borongan tidak jadi diserahkan, jika ada borongan ada kerja akan tetapi jika tidak ada borongan maka tidak ada kerja"
+  [Committment] @ 60312-60349 : "tidak ada Perjanjian secara tertulis,"
+  [Allocation of Work] @ 60353-60487 : " tidak ada sanksi jika Penggugat tidak menerima pekerjaan borongan yang tidak sesuai dengan yang diharapkan Penggugat dapat penolaknya"
+  [Worker Status] @ 60561-60762 : "Majelis Hakim berpendapat bahwa terhadap hubungan kerja yang terjadi antara Penggugat dengan Tergugat tidak memenuhi syarat Materil, sebagaimana yang diamanatkan Pasal 52 Undang Undang No.13 tahun 2003"
+  [Worker Status] @ 61217-61348 : "Majelis Hakim berpendapat dan menilai hubungan kerja antara Penggugat dengan Tergugat adalah hubungan kerja yang bersifat informal,"
+  [Worker Status] @ 62918-63057 : "Penggugat tidak dapat membuktikan bahwa Penggugat adalah Karyawan dengan Perjanjian Kerja Waktu Tidak Tertentu (PKWTT) atau Karyawan Tetap,"
+  [Date] @ 64138-64168 : "Rabu, tanggal 14 Desember 2022"
+  [Date] @ 64529-64560 : "Rabu, tanggal 21 Desember 2022 "
+
+============================================================
+SOURCE: PN_TJK_8_2023  |  YEAR: 2023.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 1 - The Hirer assigns work, and it cannot be turned down by the Worker
+  committment: 6 - Oral Contract without relationship stated
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 1 - Indefinite Full-Time Contract
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 3 - Not Applicable/Not Considered
+  Distinction: 3 - No Integration (Nothing associating worker as part of business)
+  Employment Benefits: 4 - Not Applicable/Not Considered
+  Exclusivity: 6 - Not Applicable/Not Considered
+  Independence: 2 - Yes, the Worker is capable but DOES NOT in practice
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 1 - Yes
+  Managerial Role: 4 - No
+  Manner of Work: 3 - The Worker is free to chose how to complete the task without restrictions
+  Minimum Pay or Work: 2 - Yes, pay only
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 6 - Not Applicable/Not Considered
+  Payment Procedure: 2 - No
+  Remuneration: 1 - Salary/Fixed Wages only without bonus
+  Selection: 1 - Yes
+  Supervision: 1 - Yes
+  Termination Date: 2 - No
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 4 - Not Applicable/Not Considered
+  Tri-lateral relationship: 2 - No
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 3 - Not Applicable/Not Considered
+  Work Hours: 1 - The Hirer sets the work schedule and work hours
+  Work Location: 4 - Not Applicable/Not Considered
+  Worker Status: 1 - Employee
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 1-47 : "P U T U S A N\n\nNomor : 8/Pdt.Sus-PHI/2023/PN.Tjk"
+  [Case Name] @ 339-346 : "MUZALIM"
+  [Case Name] @ 586-590 : "ARUL"
+  [Case Name] @ 1453-1475 : "PT. RUBER JAYA LAMPUNG"
+  [Length of Employment] @ 2789-2796 : "8 tahun"
+  [Length of Employment] @ 2886-2893 : "3 tahun"
+  [Tri-lateral relationship] @ 5831-5894 : "bahwa Para Penggugat dalam melamar kerja dengan memakai lamaran"
+  [Distinction] @ 35135-35181 : "Bahwa disana tidak ada seragam untuk karyawan "
+  [Committment] @ 48188-48233 : "Perjanjian Kerja Waktu Tidak Tertentu (PKWTT)"
+  [Termination Date] @ 48847-49354 : "namun hal tersebut dibantah oleh Tergugat yang menyatakan bahwa karena kondisi perusahaan yang tidak beroperasional secara maksimal maka harus melakukan upaya efisiensi dengan merumahkan sebagian pekerja dan semua Para Penggugat berstatus Pekerja Harian Lepas, karena dalam 1 (satu) bulan bekerja tidak lebih dari 21 hari kerja walaupun mereka (Para Penggugat) sudah bekerja beberapa tahun akan tetapi keluar masuk dari PT. Rubber Jaya Lampung dimana berkaitan dengan status Harian Lepas bagi Para Pe..."
+  [Committment] @ 49356-49400 : "memang tidak ada perjanjian secara tertulis,"
+  [Termination Date] @ 51642-51899 : "tatus Harian Lepas bagi Para Penggugat, memang tidak ada perjanjian secara tertulis, karena faktanya selama 1 (satu) bulan Para Pekerja bekerja tidak lebih dari 21 (dua puluh satu hari) kerja, kemudian setiap periode bekerja tidak lebih dari 3 (tiga) bulan,"
+  [Committment] @ 52445-52519 : "Para Penggugat dengan Tergugat memang tidak ada perjanjian secara tertulis"
+  [Committment] @ 52798-52843 : "maka Perjanjian tersebut dibuat secara lisan "
+  [Work Hours] @ 54024-54120 : "Absensi sidik Jari atas Nama Muzalim Periode bulan Januari sampai dengn bulan Oktober tahun 2022"
+  [Work Hours] @ 54557-54614 : "Absen sidik jari Arul bulan Januari sampai dengan April ;"
+  [Independence] @ 55304-55352 : " bekerja dengan jabatan sebagai Penjemur Karet ;"
+  [Managerial Role] @ 55305-55349 : "bekerja dengan jabatan sebagai Penjemur Kare"
+  [Selection] @ 55305-55352 : "bekerja dengan jabatan sebagai Penjemur Karet ;"
+  [Minimum Pay or Work] @ 56076-56281 : "Penggugat 2 memperoleh upah sebesar Rp. 429.000,- (empat ratus dua puluh sembilan ribu) per minggu Muzalim Penggugat 1 memperoleh upah sebesar Rp. 768.000,- (tujuh ratus enam puluh delapan ribu) per minggu"
+  [Remuneration] @ 56076-56283 : "Penggugat 2 memperoleh upah sebesar Rp. 429.000,- (empat ratus dua puluh sembilan ribu) per minggu Muzalim Penggugat 1 memperoleh upah sebesar Rp. 768.000,- (tujuh ratus enam puluh delapan ribu) per minggu ;"
+  [Manner of Work] @ 56554-56676 : "hasil kerja penjemuran Para Penggugat dicatat kemudian dilaporkan kepada Mandor untuk ditulis hasil kerjanya setiap hari ;"
+  [Supervision] @ 56609-56676 : "dilaporkan kepada Mandor untuk ditulis hasil kerjanya setiap hari ;"
+  [Allocation of Work] @ 56609-56676 : "dilaporkan kepada Mandor untuk ditulis hasil kerjanya setiap hari ;"
+  [Worker Status] @ 57569-57783 : "bahwa telah terbukti ketiga unsur pekerjaan, upah dan perintah telah terpenuhi dalam hubungan kerja antara Para Penggugat dengan Tergugat sesuai dengan ketentuan Pasal 1 angka 15 Undang-undang Nomor 13 Tahun 2003 ;"
+  [Worker Status] @ 58040-58190 : "ada hubungan kerja antara Para Penggugat dengan Tergugat yang dibuat secara lisan yang dapat disamakan dengan Perjanjian Kerja Waktu Tertentu (PKWT) ;"
+  [Integration] @ 61033-61463 : "bahwa apabila jabatan Para Penggugat sebagai Penjemur Karet tidak ada/ tidak dilakukan oleh Penggugat maka dapat dipastikan bahwa usaha Tergugat yaitu bergerak dalam industri karet tidak akan dapat berjalan dengan baik karena akan mengganggu proses kegiatan usaha Tergugat oleh karenanya pekerjaan yang dilakukan oleh Penggugat jabatan sebagai Penjemur Karet adalah pekerjaan yang inti dan bukan pekerjaan yang bersifat penunjang "
+  [Integration] @ 61475-61680 : "bahwa berdasarkan pertimbangan diatas terbukti jabatan sebagai Penjemur Karet adalah jabatan yang inti bisnis (core business) yang merupakan bagian dari usaha Tergugat yaitu bergerak dalam industri karet ;"
+  [Worker Status] @ 62696-62906 : "Majelis Hakim berkesimpulan bahwa terbukti benar status hubungan kerja antara Para Penggugat dengan Tergugat berdasarkan Perjanjian Kerja Waktu Tertentu (PKWT) atau Perjanjian Kerja Waktu Tidak Tertentu (PKWTT)"
+  [Date] @ 86608-86640 : "Kamis, tanggal 14 September 2023"
+
+============================================================
+SOURCE: PN_JKT PST_297_2023  |  YEAR: 2023.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 1 - The Hirer assigns work, and it cannot be turned down by the Worker
+  committment: 5 - Written contract without relationship stated
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 5 - Other
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 2 - No
+  Distinction: 4 - Not Applicable/Not Considered
+  Employment Benefits: 1 - Yes, all benefits normally given to employees
+  Exclusivity: 6 - Not Applicable/Not Considered
+  Independence: 2 - Yes, the Worker is capable but DOES NOT in practice
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 1 - Yes
+  Managerial Role: 5 - Not Applicable/Not Considered
+  Manner of Work: 2 - The Worker decides how to complete the task, but must comply with the requirements set by the Hirer or seek permission from the Hirer
+  Minimum Pay or Work: 2 - Yes, pay only
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 6 - Not Applicable/Not Considered
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 4 - Mix of salary and paid by commission/per task with opportunity for incentives
+  Selection: 1 - Yes
+  Supervision: 2 - No
+  Termination Date: 2 - No
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 1 - Yes, the Worker requires substantial training or education necessary for their job
+  Tri-lateral relationship: 2 - No
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 1 - Yes
+  Work Hours: 1 - The Hirer sets the work schedule and work hours
+  Work Location: 1 - The Hirer sets the work location
+  Worker Status: 2 - Indepedent Contractor
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-51 : "P U T U S A N\nNomor 297/Pdt.Sus-PHI/2023/PN.Jkt.Pst."
+  [Case Name] @ 332-370 : "YULIVIA TREESTIANA SULISTYOWATI, S.H.;"
+  [Case Name] @ 1083-1128 : "KANTOR NOTARIS DR. YURISA MARTANTI, S.H.,M.H."
+  [Tri-lateral relationship] @ 2535-2599 : "PENGGUGAT adalah badan perorangan sebagai pekerja atau karyawan "
+  [Length of Employment] @ 3415-3428 : "Februari 2002"
+  [Contract] @ 174694-174719 : "Perjanjian Kerja Tertulis"
+  [Committment] @ 174694-174719 : "Perjanjian Kerja Tertulis"
+  [Managerial Role] @ 174727-174757 : "jabatan sebagai staff Keuangan"
+  [Minimum Pay or Work] @ 174765-174811 : "Upah yang telah diterima sebesar Rp 750.000,-;"
+  [Integration] @ 174947-175055 : "tahun 2007 Penggugat mendapatkan kepercayaan sebagai asisten Notaris dengan tambahan pekerjaan untuk membuat"
+  [Manner of Work] @ 175008-175055 : "Notaris dengan tambahan pekerjaan untuk membuat"
+  [Manner of Work] @ 175121-175219 : "naskah Akta atau Perjanjian dan berinteraksi langsung dengan klien/\n\npengguna jasa notaris disertai "
+  [Remuneration] @ 175226-175472 : "kesepakatan pemberian prestasi\n\nberupa bonus untuk setiap kali pengerjaan pembuatan naskah Akta atau Perjanjian telah selesai selain menerima bonus,Penggugat menerima imbalan upah dengan kompisisi berupa Upah pokok, uang makan dan uang cuti tahunan"
+  [Employment Benefits] @ 175455-175472 : "uang cuti tahunan"
+  [Training] @ 175510-175662 : "Penggugat diangkat sebagai Notaris Pengganti berdasarkan Surat Keputusan Nomor SK 232/Ket,Cuti MPDN Jaktim/XII/2014 pelantikan sebagai Notaris Pengganti"
+  [Selection] @ 175510-175625 : "Penggugat diangkat sebagai Notaris Pengganti berdasarkan Surat Keputusan Nomor SK 232/Ket,Cuti MPDN Jaktim/XII/2014"
+  [Integration] @ 175510-175662 : "Penggugat diangkat sebagai Notaris Pengganti berdasarkan Surat Keputusan Nomor SK 232/Ket,Cuti MPDN Jaktim/XII/2014 pelantikan sebagai Notaris Pengganti"
+  [Managerial Role] @ 175768-175809 : "Staff Keuangan menjadi Notaris Pengganti,"
+  [Minimum Pay or Work] @ 175810-175866 : "Penggugat menerima upah terakhir sebesar Rp 6.500.000,-;"
+  [Work Hours] @ 175880-176041 : "Penggugat memiliki kewajiban untuk hadir bekerja selama 5 hari kerja dalam seminggu atau untuk sekurang-kurangnya 40 jam kerja seminggu di lokasi kerja Tergugat,"
+  [Work Location] @ 176016-176246 : "di lokasi kerja Tergugat, yaitu pada kantor Notaris DR.Yurisa Martanti,S.H,.M.H beralamat di Jalan Matahari Blok i.3 Nomor 43, Kelurahan Malaka, Asri Raya,RT6/RW11,Malaka Sari,Kecamatan Duren Sawit,Jakarta Timur, DKI Jakarta 13440"
+  [Training] @ 176053-176095 : "kantor Notaris DR.Yurisa Martanti,S.H,.M.H"
+  [Work Hours] @ 176252-176325 : "Penggugat secara konsisten setiap harinya hadir sesuai jam dan hari kerja"
+  [Supervision] @ 176386-176480 : "menyampaikan laporan kerja untuk setiap pekerjaannya kepada Tergugat selaku atasan Penggugat ;"
+  [Training] @ 176999-177239 : ":â€œ Syarat untuk dapat diangkat menjadi Notaris Pengganti dan Pejabat Sementara Notaris adalah warga negara Indonesia yang berijazah sarjana hukum dan telah bekerja sebagai karyawan kantor Notaris paling sedikit 2 (dua) tahun berturut-turutâ€"
+  [Allocation of Work] @ 177359-177449 : "aryawan dari Tergugat yang menggantikan jabatan notaris untuk waktu terbatas atau bersifat"
+  [Allocation of Work] @ 177515-177742 : "sementara , sehingga secara formil dan materil hubungan hukum antara\n\nPenggugat dengan Tergugat adalah hubungan kerja yang terjadi dengan\n\nPenggugat sebagai pekerjanya dan Tergugat sebagai majikan , pemberi kerja atau pengusahanya;"
+  [Employment Benefits] @ 178945-179030 : "upah dengan dipotong 50% dari upah sebulan dan tidak diberikan tunjangan uang makan ;"
+  [Employment Benefits] @ 179505-179705 : "Penggugat masih menerima upah penuh sebulan dan bonus Tunjangan hari Raya ( THR ) sebesar satu kali upah sebulan, iuran kepesertaan BPJS juga masih dibayarkan oleh Tergugat;\nBahwa selama Bulan Mei 2022"
+  [Withholdings] @ 179505-179642 : "Penggugat masih menerima upah penuh sebulan dan bonus Tunjangan hari Raya ( THR ) sebesar satu kali upah sebulan, iuran kepesertaan BPJS "
+  [Minimum Pay or Work] @ 179706-179786 : "Penggugat masih menerima upah sekira Rp 6.500.000,- tanpa tunjangan uang makan ;"
+  [Employment Benefits] @ 179852-179916 : "Bahwa Penggugat mengajukan ijin cuti sakit untuk waktu panjang, "
+  [Employment Benefits] @ 179939-179986 : "kebijakan ijin Cuti Sakit tanpa dibayar upahnya"
+  [Employment Benefits] @ 182553-182729 : "TERGUGAT berupaya maksimal sesuai kemampuan Tergugat utk memberikan biaya perawatan yang timbul dari sakitnya PENGGUGAT serta luran Badan Penyelenggara Jaminan Sosial Kesehatan"
+  [Independence] @ 182776-182820 : "Penggugat dlangkat sebagai Notaris Pengganti"
+  [Independence] @ 183008-183043 : "PENGGUGAT sebagai Notaris Pengganti"
+  [Employment Benefits] @ 190203-190330 : "Penggugat sudah tidak menerima upah dari Tergugat dan atas iuran BPJS Penggugat juga sudah tidak dibayarkan lagi oleh Tergugat "
+  [Termination Date] @ 190342-190532 : "bahwa pada tanggal 2 Mei 2023 Penggugat melalui suaminya mengajukan surat permohonan kejelasan status hubungan kerja, dan Tergugat menyetujui untuk memutuskan hubungan kerja dengan Penggugat"
+  [Remuneration] @ 190348-190532 : "pada tanggal 2 Mei 2023 Penggugat melalui suaminya mengajukan surat permohonan kejelasan status hubungan kerja, dan Tergugat menyetujui untuk memutuskan hubungan kerja dengan Penggugat"
+  [Worker Status] @ 198407-198591 : "Majelis Hakim tidak menemukan fakta hukum tentang terdapatnya hubungan kerja antara Penggugat dengan Tergugat baik sebelum Penggugat diangkat sebagai Notaris Pengganti dan setelahnya, "
+  [Remuneration] @ 202002-202212 : "selanjutnya terhadap unsur upah, Penggugat menerima honorarium/jasa hukum yang bukan hanya menerima upah melainkan jga komisi atas pekerjaan pembuatan akta dari klien Tergugat, dan juga menerima pembayaran BPJS"
+  [Supervision] @ 202493-203122 : "Penggugat menerima langsung perintah dari Tergugat secara lisan tidak secara tertulis dan Penggugat maupun Tergugat tidak terikat dalam Peraturan Perusahaan dan Tata Tertib sebagaimana keterangan saksi Tergugat tidak terdapat absensi di kantor Tergugat, tidak pula ada aturan-aturan tertentu hanya berdasar lisan dan kebiasaan yang mengatur waktu kerja serta tidak pernah ada hukuman ataupun Surat Peringatan kepada Penggugat meskipun dating tidak tepat waktu dan tidak masuk bekerja karena sakit ber..."
+  [Disciplinary Action] @ 202852-203004 : "tidak pernah ada hukuman ataupun Surat Peringatan kepada Penggugat meskipun dating tidak tepat waktu dan tidak masuk bekerja karena sakit berkepanjangan"
+  [Worker Status] @ 203139-203338 : "berdasar bukti-bukti Penggugat tersebut diatas, Majelis Hakim tidak menemukan terdapatnya bukti tentang status hubungan kerja antara Penggugat dengan Tergugat sebagaimana yang di dalilkan Penggugat ;"
+  [Worker Status] @ 203399-203956 : "Majelis Hakim berpendapat telah ternyata Penggugat adalah seorang yang mempunyai keahlian khusus kenotariatan dan mempunyai kapasitas sebagai seorang Notaris Pengganti, yang bekerja dengan Tergugat karena hubungan kekeluargaan yang bukan karena terdapatnya Perjanjian Kerja antara Pengusaha dan Pekerja/Buruh, dan tidak pula terpenuhi unsur hubungan kerja berdasar pekerjaan, upah dan perintah, sehingga atas hubungan kerja yang didalilkan Penggugat adalah bukan merupakan hubungan kerja sebagaimana ..."
+  [Date] @ 212881-212909 : "Senin, tanggal 04 Maret 2024"
+  [Date] @ 212992-213018 : "Rabu, tanggal 6 Maret 2024"
+
+============================================================
+SOURCE: PN_MDN_431_2021  |  YEAR: 2021.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 1 - The Hirer assigns work, and it cannot be turned down by the Worker
+  committment: 4 - Written contract stating contractor relationship
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 5 - Other
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 3 - Not Applicable/Not Considered
+  Distinction: 1 - High Level of Integration (Required to wear uniform, listed on company directories, held out as employee etc.)
+  Employment Benefits: 2 - Yes, some benefits normally given to employees
+  Exclusivity: 6 - Not Applicable/Not Considered
+  Independence: 3 - No
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 2 - No
+  Managerial Role: 5 - Not Applicable/Not Considered
+  Manner of Work: 4 - Not Applicable/Not Considered
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 1 - The Hirer owns/provides all of the resources
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 5 - Paid by Commission/per task only without incentives
+  Selection: 2 - No
+  Supervision: 1 - Yes
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 3 - No
+  Tri-lateral relationship: 1 - Yes
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 1 - Yes
+  Work Hours: 1 - The Hirer sets the work schedule and work hours
+  Work Location: 1 - The Hirer sets the work location
+  Worker Status: 1 - Employee
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-46 : "P U T U S A N\n\nNomor 431/Pdt.Sus-PHI/2021/PN Mdn"
+  [Case Name] @ 319-337 : "Herlon Simanjuntak"
+  [Case Name] @ 593-603 : "Marsudi SN"
+  [Case Name] @ 868-878 : "Baharuddin"
+  [Case Name] @ 1145-1153 : "LASIRAN,"
+  [Case Name] @ 5992-6063 : "Primer Koperasi Tenaga Kerja Bongkar Muat Upaya Karya Pelabuhan Belawan"
+  [Length of Employment] @ 9791-9910 : "asuk kerja sejak tahun 1970 s/d tanggal 28 Juni 2018 atau Masa kerja selama 47 (empat puluh tujuh) tahun 6 (enam) bulan"
+  [Length of Employment] @ 10096-10216 : "Masuk kerja sejak tahun 1980 s/d tanggal 28 Juni 2018 atau Masa kerja selama 37 (tiga puluh tujuh) tahun 6 (enam) bulan "
+  [Length of Employment] @ 10403-10527 : "Masuk kerja sejak tahun 1968 s/d tanggal 28 Juni 2018 atau Masa kerja selama 49 (empat puluh sembilan) tahun 6 (enam) bulan;"
+  [Length of Employment] @ 10709-10827 : "Masuk kerja sejak tahun 1964 s/d tanggal 28 Juni 2018 atau Masa kerja selama 53 (lima puluh tiga) tahun 6 (enam) bulan"
+  [Length of Employment] @ 11012-11136 : "Masuk kerja sejak Maret 1968 s/d tanggal 28 Juni 2018 atau Masa kerja selama 49 (empat puluh sembilan) tahun 6 (enam) bulan;"
+  [Length of Employment] @ 11338-11459 : "Masuk kerja sejak tahun 1980 s/d tanggal 28 Juni 2018 atau Masa kerja selama 37 (tiga puluh tujuh) tahun 6 (enam) bulan ;"
+  [Length of Employment] @ 11722-11841 : "Masuk kerja sejak tahun 1974 s/d tanggal 28 Juni 2018 atau Masa kerja selama 43 (empat puluh tiga) tahun 6 (enam) bulan"
+  [Length of Employment] @ 12028-12147 : "Masuk kerja sejak tahun 1965 s/d tanggal 28 Juni 2018 atau Masa kerja selama 52 (lima puluh dua) tahun 6 (enam) bulan ;"
+  [Length of Employment] @ 12387-12449 : "Masa kerja selama 38 (tiga puluh delapan) tahun 6 (enam) bulan"
+  [Length of Employment] @ 12633-12752 : "Masuk kerja sejak tahun 1976 s/d tanggal\n28 Juni 2018 atau Masa kerja selama 41 (empat puluh satu) tahun 6 (enam) bulan "
+  [Length of Employment] @ 12997-13059 : " Masa kerja selama 45 (empat puluh lima) tahun 6 (enam) bulan "
+  [Length of Employment] @ 13255-13375 : "Masuk kerja sejak tahun 1976 s/d tanggal 28 Juni 2018 atau Masa kerja selama 41 (empat puluh satu) tahun 6 (enam) bulan "
+  [Length of Employment] @ 13575-13694 : "Masuk kerja sejak tahun 1986 s/d tanggal 28 Juni 2018 atau Masa kerja selama 31 (tiga puluh satu) tahun 6 (enam) bulan "
+  [Length of Employment] @ 13880-14001 : "Masuk kerja sejak tahun 1980 s/d tanggal 28 Juni 2018 atau Masa kerja selama 37 (tiga puluh tujuh) tahun 6 (enam) bulan ;"
+  [Minimum Pay or Work] @ 48705-48779 : "Upah Proses selama 6 (enam) bulan, yaitu : 6 (enam) bulan x Rp. 2.749.074,"
+  [Ownership of Resources] @ 68075-68542 : "hak-hak para Penggugat selaku anggota dari Tergugat I tetap dipenuhi di antaranya kepesertaan Jaminan Sosial Tenaga Kerja (Jamsostek) incasu Jaminan Kecelakaan Kerja (JKK)-Jaminan Hari Tua (JHT)-Jaminan Kematian (JK), Perumahan, Tunjangan Hari Raya (THR), Pakaian, Sepatu, Helm, dan lain- lain sebagainya, walaupun para Penggugat tidak lagi melaksanakan aktifitas pekerjaan bongkar muat di Pelabuhan Utama Belawan sebagai salah satu sumber pendapatan dari Tergugat I "
+  [Employment Benefits] @ 68075-68542 : "hak-hak para Penggugat selaku anggota dari Tergugat I tetap dipenuhi di antaranya kepesertaan Jaminan Sosial Tenaga Kerja (Jamsostek) incasu Jaminan Kecelakaan Kerja (JKK)-Jaminan Hari Tua (JHT)-Jaminan Kematian (JK), Perumahan, Tunjangan Hari Raya (THR), Pakaian, Sepatu, Helm, dan lain- lain sebagainya, walaupun para Penggugat tidak lagi melaksanakan aktifitas pekerjaan bongkar muat di Pelabuhan Utama Belawan sebagai salah satu sumber pendapatan dari Tergugat I "
+  [Work Location] @ 68331-68461 : "Pakaian, Sepatu, Helm, dan lain- lain sebagainya, walaupun para Penggugat tidak lagi melaksanakan aktifitas pekerjaan bongkar muat"
+  [Work Location] @ 73236-73392 : "beberapa orang karyawan/pegawai yang bekerja dan menerima honor/gaji karena melakukan pekerjaan yang digariskan sesuai waktu dan tempat kerja dari koperasi "
+  [Work Hours] @ 73285-73360 : "menerima honor/gaji karena melakukan pekerjaan yang digariskan sesuai waktu"
+  [Minimum Pay or Work] @ 83469-83568 : "bukanlah berstatus sebagai karyawan /pegawai/pekerja yang menerima honor/gaji/upah dari Tergugat I,"
+  [Minimum Pay or Work] @ 83639-83675 : "bekerja dengan sistem borongan serta"
+  [Minimum Pay or Work] @ 83676-83728 : "bergilir pada berbagai perusahaan milik pihak ketiga"
+  [Tri-lateral relationship] @ 153848-154143 : "Tergugat I adalah wadah yang menyediakan Para Penggugat sebagai Tenaga Kerja Bongkar Muat (TKBM) Upaya Karya Pelabuhan Belawan, untuk melakukan kegiatan/pekerjaan bongkar muat Para Penggugat terregistrasi atau terdaftar oleh Tergugat II, lalu Para Penggugat ditempatkan di perusahaan Tergugat II"
+  [Independence] @ 154873-154941 : "melakukan kegiatan/pekerjaan bongkar muat di perusahaan Tergugat III"
+  [Selection] @ 154873-154941 : "melakukan kegiatan/pekerjaan bongkar muat di perusahaan Tergugat III"
+  [Integration] @ 155033-155101 : "Para Penggugat melakukan bongkar muat barang di lokasi Tergugat III."
+  [Selection] @ 155048-155100 : "melakukan bongkar muat barang di lokasi Tergugat III"
+  [Integration] @ 155102-155191 : "Para Penggugat selaku anggota dan tenaga kerja bongkar muat upaya karya Pelabuhan Belawan"
+  [Integration] @ 155329-155661 : "Para Penggugat selaku Tenaga Kerja Bongkar Muat (TKBM) Upaya Karya Pelabuhan Belawan dalam melakukan hubungan pekerjaan mendapat perintah dari Tergugat I melalui Kepala Regu Kerja (KRK) atau Mandor yang juga merangkap Anggota dan Tenaga Kerja Bongkar Muat untuk melakukan Pekerjaan Memuat dan Membongkar Barang dari Kapal ke Gudang."
+  [Supervision] @ 155420-155527 : "melakukan hubungan pekerjaan mendapat perintah dari Tergugat I melalui Kepala Regu Kerja (KRK) atau Mandor "
+  [Training] @ 155559-155660 : "Tenaga Kerja Bongkar Muat untuk melakukan Pekerjaan Memuat dan Membongkar Barang dari Kapal ke Gudang"
+  [Allocation of Work] @ 155676-155803 : "Para Penggugat melakukan Pekerjaan, terlebih dahulu Tergugat I melalui mandor memberikan panjar upah/gaji kepada Para Penggugat"
+  [Allocation of Work] @ 155808-155849 : "setelah Para Penggugat mendapat perintah,"
+  [Withholdings] @ 156102-156289 : "berkewajiban mendaftarkan Para Penggugat menjadi anggota kepesertaan BPJS Kesehatan dan BPJS Ketenagakerjaan dan riwayat pekerjaan Para Penggugat adalah sebagai pekerja Penerima Upah (PU)"
+  [Committment] @ 157242-157295 : "berdasarkan Perjanjian Kerja (PK) dibuat secara lisan"
+  [Contract] @ 157254-157295 : "Perjanjian Kerja (PK) dibuat secara lisan"
+  [Committment] @ 157297-157373 : "Hubungan kerja antara Tergugat I dengan Para Penggugat terjadi karena adanya"
+  [Committment] @ 157440-157481 : "perjanjian kerja yang dibuat secara lisan"
+  [Tri-lateral relationship] @ 169720-169853 : "Majelis berkesimpulan bahwa Para Penggugat merupakan anggota Primer Koperasi Tenaga Kerja Bongkar Muat Upaya Karya pelabuhan belawan "
+  [Tri-lateral relationship] @ 171225-171548 : "Majelis Hakim berkesimpulan bahwa Para Penggugat merupakan anggota Primer Koperasi Tenaga Kerja Bongkar Muat Upaya Karya Pelabuhan Belawan, sekaligus sebagai Tenaga Kerja Koperasi Bongkar Muat (TKBM) upaya karya pelabuhan belawan incasu dan Tergugat I sebagai penyedia Tenaga Kerja Bongkar Muat (TKBM) di Pelabuhan Belawan;"
+  [Managerial Role] @ 171284-171447 : "anggota Primer Koperasi Tenaga Kerja Bongkar Muat Upaya Karya Pelabuhan Belawan, sekaligus sebagai Tenaga Kerja Koperasi Bongkar Muat (TKBM) upaya karya pelabuhan "
+  [Distinction] @ 171564-171827 : "Para Penggugat terregistrasi atau terdaftar oleh Tergugat II in casu Kantor Otoritas Pelabuhan Utama Belawan, hal ini sesuai dengan bukti T.1-4, Yaitru Surat Edaran dari Primer Koperasi Tenaga Kerja Bongkar Muat Upaya Karya Pelabuhan Belawan No.05/UPA/III.Aa/2018"
+  [Tri-lateral relationship] @ 171869-171997 : "Menimbang bahwa Para Penggugat ditempatkan bekerja di perusahaan\nTergugat III in casu PT. Pelabuhan Indonesia I (Persero) Belawan"
+  [Distinction] @ 172709-172816 : "memiliki kartu tanda anggota yang dikeluarkan, ditandatangani dan distempel oleh Tergugat I dan Tergugat II"
+  [Remuneration] @ 173034-173084 : " memberikan panjar upah/gaji kepada Para Penggugat"
+  [Supervision] @ 173102-173129 : "Penggugat mendapat perintah"
+  [Employment Benefits] @ 173145-173369 : "panjar upah dari mandor, kemudian Para Penggugat setelah selesai melakukan pekerjaan bongkar muat barang, kemudian Kepala Regu Kerja (KRK) atau mandor memberikan sisa upah keseluruhan dari upah pekerjaan kepada Para\nPenggugat"
+  [Remuneration] @ 173145-173369 : "panjar upah dari mandor, kemudian Para Penggugat setelah selesai melakukan pekerjaan bongkar muat barang, kemudian Kepala Regu Kerja (KRK) atau mandor memberikan sisa upah keseluruhan dari upah pekerjaan kepada Para\nPenggugat"
+  [Employment Benefits] @ 173476-173558 : "Para Penggugat menjadi anggota kepesertaan BPJS Kesehatan dan BPJS Ketenagakerjaan"
+  [Worker Status] @ 179841-180031 : "Majelis Hakim berpendapat bahwa Para Penggugat dengan Tergugat I memiliki hubungan kerja karena adanya perintah, pekerjaan dan Upah, sehingga Para Penggugat merupakan Tenaga kerja Tergugat I"
+  [Date] @ 203334-203362 : "Kamis, tanggal 14 April 2022"
+  [Date] @ 203570-203599 : "Kamis, tanggal 21 April 2022,"
+
+============================================================
+SOURCE: MA_483K_2024  |  YEAR: 2024.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 4 - The Worker decides the work WITHOUT approval
+  committment: 8 - Not Applicable/Not Considered
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 6 - Not Applicable/Not Considered
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 2 - No
+  Distinction: 4 - Not Applicable/Not Considered
+  Employment Benefits: 3 - No
+  Exclusivity: 6 - Not Applicable/Not Considered
+  Independence: 2 - Yes, the Worker is capable but DOES NOT in practice
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 3 - Not Applicable/Not Considered
+  Managerial Role: 4 - No
+  Manner of Work: 3 - The Worker is free to chose how to complete the task without restrictions
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 5 - The Worker owns/provides all of the resources
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 5 - Paid by Commission/per task only without incentives
+  Selection: 3 - Not Applicable/Not Considered
+  Supervision: 2 - No
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 4 - Not Applicable/Not Considered
+  Tri-lateral relationship: 2 - No
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 3 - Not Applicable/Not Considered
+  Work Hours: 4 - The Worker sets their own schedule and work hours
+  Work Location: 3 - The Worker sets the work location without permission
+  Worker Status: 2 - Indepedent Contractor
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-41 : "P U T U S A N\nNomor 483 K/Pdt.Sus-PHI/2024"
+  [Case Name] @ 253-275 : "PT DWIHARTA LOGISTINDO"
+  [Case Name] @ 786-792 : "JUMALI"
+  [Tri-lateral relationship] @ 8394-8467 : "dikembalikan ke posisi semula sebagai supir trucking pada Termohon Kasasi"
+  [Worker Status] @ 9762-9961 : "hubungan kerja antara Penggugat dengan Tergugat tidak memenuhi unsur-unsur adanya hubungan kerja sebagaimana diatur dalam ketentuan Pasal 1 angka (15) dan Pasal 50 Undang-Undang Nomor 13 Tahun 2003 t"
+  [Remuneration] @ 10052-10148 : " tidak ada upah yang diterima oleh Penggugat setiap hari atau setiap minggu atau setiap bulannya"
+  [Employment Benefits] @ 10053-10148 : "tidak ada upah yang diterima oleh Penggugat setiap hari atau setiap minggu atau setiap bulannya"
+  [Minimum Pay or Work] @ 10053-10148 : "tidak ada upah yang diterima oleh Penggugat setiap hari atau setiap minggu atau setiap bulannya"
+  [Ownership of Resources] @ 10153-10215 : " pihak Tergugat kecuali jika ada pekerjaan (membawa kendaraan)"
+  [Remuneration] @ 10216-10343 : "Penggugat akan memperoleh uang jalan, uang makan, uang toll, uang BBM dan uang ritase, sisanya merupakan penghasilan Penggugat "
+  [Allocation of Work] @ 10441-10564 : ", tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja"
+  [Manner of Work] @ 10441-10564 : ", tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja"
+  [Work Hours] @ 10443-10564 : "tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja"
+  [Allocation of Work] @ 10443-10564 : "tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja"
+  [Manner of Work] @ 10443-10564 : "tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja"
+  [Supervision] @ 10443-10564 : "tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja"
+  [Allocation of Work] @ 10619-10758 : "dari pihak Tergugat dan Tergugat tidak memberikan sanksi atas\n\npenolakan perintah kerja tersebut baik dengan surat peringatan\n\nmaupun skorsing,"
+  [Minimum Pay or Work] @ 10821-10866 : "bersifat borongan atau sekali antar (ritase) "
+  [Work Hours] @ 11052-11133 : "Jam Kerja, dalam melaksanakan pekerjaannya Penggugat tidak tunduk pada jam kerja "
+  [Independence] @ 11442-11565 : "sebagai Sopir Truk yang melakukan pengantaran barang milik customer dan menerima uang jalan berbeda-beda berdasarkan ritase"
+  [Managerial Role] @ 11450-11461 : "Sopir Truk "
+  [Remuneration] @ 11514-11565 : "menerima uang jalan berbeda-beda berdasarkan ritase"
+  [Work Hours] @ 11584-11607 : "tidak terikat jam kerja"
+  [Work Location] @ 11612-11698 : "Penggugat dapat menerima orderan melalui telepon (tidak harus berada di tempat kerja),"
+  [Worker Status] @ 11724-11812 : "hubungan hukum antara Penggugat dengan Tergugat merupakan hubungan kemitraan (informal);"
+  [Worker Status] @ 11725-11812 : "ubungan hukum antara Penggugat dengan Tergugat merupakan hubungan kemitraan (informal);"
+  [Overturned Decision (Case Number)] @ 14078-14230 : "Membatalkan Putusan Pengadilan Hubungan Industrial pada Pengadilan Negeri Jakarta Pusat Nomor 168/Pdt.Sus-PHI/2023/PN Jkt.Pst., tanggal 4 Desember 2023;"
+  [Date] @ 14546-14573 : "Selasa, tanggal 14 Mei 2024"
+
+============================================================
+SOURCE: PN_MDN_12_2023  |  YEAR: 2023.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 1 - The Hirer assigns work, and it cannot be turned down by the Worker
+  committment: 6 - Oral Contract without relationship stated
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 5 - Other
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 1 - Yes
+  Distinction: 1 - High Level of Integration (Required to wear uniform, listed on company directories, held out as employee etc.)
+  Employment Benefits: 1 - Yes, all benefits normally given to employees
+  Exclusivity: 6 - Not Applicable/Not Considered
+  Independence: 4 - Not Applicable/Not Considered
+  Insurance: 1 - Worker solely supplies liability insurance
+  Integration: 1 - Yes
+  Managerial Role: 4 - No
+  Manner of Work: 4 - Not Applicable/Not Considered
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 1 - The Hirer owns/provides all of the resources
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 1 - Salary/Fixed Wages only without bonus
+  Selection: 3 - Not Applicable/Not Considered
+  Supervision: 1 - Yes
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 1 - Yes
+  Training: 4 - Not Applicable/Not Considered
+  Tri-lateral relationship: 1 - Yes
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 1 - Yes
+  Work Hours: 1 - The Hirer sets the work schedule and work hours
+  Work Location: 1 - The Hirer sets the work location
+  Worker Status: 1 - Employee
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-54 : "P U T U S A N S E L A\nNomor 12/Pdt.Sus-PHI/2023/PN Mdn"
+  [Case Name] @ 331-346 : "EDWINSYAH LUBIS"
+  [Case Name] @ 1014-1061 : "PRIMER KOPERASI TENAGA KERJA BONGKAR MUAT UPAYA"
+  [Tri-lateral relationship] @ 4101-4296 : "Penggugat (i.c. EDWINSYAH LUBIS) adalah Anggota dan Eks. Tenaga Kerja Bongkar Muat (TKBM) dibawah naungan Tergugat I (i.c. PRIMER KOPERASI TENAGA KERJA BONGKAR MUAT UPAYA KARYA PELABUHAN BELAWAN)"
+  [Integration] @ 4101-4296 : "Penggugat (i.c. EDWINSYAH LUBIS) adalah Anggota dan Eks. Tenaga Kerja Bongkar Muat (TKBM) dibawah naungan Tergugat I (i.c. PRIMER KOPERASI TENAGA KERJA BONGKAR MUAT UPAYA KARYA PELABUHAN BELAWAN)"
+  [Length of Employment] @ 4366-4473 : "Masuk kerja sejak tahun 1989 s/d tanggal 28 Juni 2018 atau Masa kerja selama 29 (dua puluh sembilan) tahun;"
+  [Tri-lateral relationship] @ 4479-4694 : "Penggugat terregistrasi atau terdaftar oleh Tergugat II (i.c. KEPALA KANTOR OTORITAS PELABUHAN UTAMA BELAWAN), yang ditempatkan bekerja di perusahaan Tergugat III (i.c. PT. PELABUHAN INDONESIA I (PERSERO) BELAWAN), "
+  [Distinction] @ 4694-4776 : "berdasarkan bukti KARTU TANDA ANGGOTA PRIMKOP TKBM â€œUPAYA KARYAâ€ PELABUHAN BELAWAN"
+  [Supervision] @ 7409-7753 : "melalui Mandor memberikan Panjar Upah/Gaji kepada Penggugat dan setelah Penggugat mendapat Perintah, Pekerjaan dan Panjar Upah dari Mandor, kemudian setelah Penggugat selesai melakukan Perintah dan Pekerjaan bongkar muat barang, kemudian Kepala Regu Kerja (KRK) atau Mandor memberikan Sisa Upah keseluruhan dari Upah Pekerjaan kepada Penggugat;"
+  [Remuneration] @ 7647-7752 : "Kepala Regu Kerja (KRK) atau Mandor memberikan Sisa Upah keseluruhan dari Upah Pekerjaan kepada Penggugat"
+  [Contract] @ 11557-11615 : "Penggugat berdasarkan Perjanjian Kerja dibuat secara Lisan"
+  [Committment] @ 11567-11615 : "berdasarkan Perjanjian Kerja dibuat secara Lisan"
+  [Managerial Role] @ 46320-46369 : " pekerjaan bongkar muat barang milik pihak ketiga"
+  [Minimum Pay or Work] @ 60039-60354 : "01 hanya bekerja dua atau tiga hari saja dalam waktu sebulan melakukan bongkar muat barang pihak ketiga dimaksud, dan selanjutnya setelah selesai bongkar muat barang dimaksud KRK Nomor.: 01 dimaksud langsung menerima W (upah) secara utuh dari Perusahaan Bongkar Muat (PBM) dimaksud melalui Mandornya sedangkan H+I+K"
+  [Remuneration] @ 60238-60312 : "langsung menerima W (upah) secara utuh dari Perusahaan Bongkar Muat (PBM) "
+  [Work Location] @ 61142-61286 : "barang milik PBM berikutnya ke Pelabuhan Belawan dan untuk selanjutnya yang akan melakukan kegiatan bongkar muat barang dimaksud digilir ke KRK "
+  [Remuneration] @ 61382-61437 : "pengupahan dengan sistem borongan di Pelabuhan Belawan,"
+  [Allocation of Work] @ 61492-61743 : " Kelompok Regu Kerja (KRK) tidak bisa mendapatkan pekerjaan bongkar muat barang milik pihak ketiga setiap bulannya, terkadang bisa sampai dua atau tiga bulan kemudian baru dapat giliran untuk melakukan kegiatan bongkar muat barang di Pelabuhan Belawan"
+  [Work Hours] @ 61493-61664 : "Kelompok Regu Kerja (KRK) tidak bisa mendapatkan pekerjaan bongkar muat barang milik pihak ketiga setiap bulannya, terkadang bisa sampai dua atau tiga bulan kemudian baru "
+  [Ownership of Resources] @ 65979-66124 : "TKBM pada saat memasuki area kerja bila tidak memakai Tanda Pengenal, Seragam Kerja serta tidak menggunakan Keselamatan dan Kesehatan Kerja (K3),"
+  [Distinction] @ 65980-66062 : "KBM pada saat memasuki area kerja bila tidak memakai Tanda Pengenal, Seragam Kerja"
+  [Third Party Risk] @ 66344-66444 : "apabila tidak bersedia maka segala kerugian yang timbul dibebankan kepada TKBM/KRK yang bersangkutan"
+  [Disciplinary Action] @ 66857-66970 : "melalui pemotongan langsung upah (W) pada pelunasan tagihan, bila terjadi kerugian keterlambatan kerja KRK/TKBM, "
+  [Third Party Risk] @ 66857-67207 : "melalui pemotongan langsung upah (W) pada pelunasan tagihan, bila terjadi kerugian keterlambatan kerja KRK/TKBM, terjadi kerusakan/kehilangan barang, kerusakan pada bagian-bagian kapal,serta kerusakan dan kehilangan peralatan kerja yang disebabkan oleh kelalaian dari KRK/TKBM serta tidak bekerja sesuai dengan keterampilannya serta tenaga yang cukup"
+  [Ownership of Resources] @ 67941-68111 : "enyediakan alat-alat bongkar muat, mekanis maupun non mekanis yang memenuhi syarat dan layak pakai, jumlah yang cukup sesuai dengan kebutuhan dan ketentuan yang berlaku, "
+  [Ownership of Resources] @ 70028-70328 : "TKBM menerima sejumlah alat kerja yang diserahkan PBM dan KRK/TKBM bertanggung-jawab terhadap pemasangan dan pengumpulan alat-alat/material bongkar muat milik PBM dan menyerahkannya kembali kepada PBM sejumlah yang diterima tanpa kurang atau rusak satu apapun setelah pembongkaran selesai dikerjakan,"
+  [Insurance] @ 70333-70618 : "KRK/TKBM bertanggung- jawab dan mengganti kerugian atas kehilangan, kerusakan alat-alat/material dan kerusakan bagian-bagian kapal apabila disebabkan oleh kelalaian TKBM sesuai Berita Acara yang ditanda-tangani kedua belah pihak dan akan diclaim sesuai harga alat dan material tersebut"
+  [Disciplinary Action] @ 70839-71005 : " Pihak Koperasi TKBM Upaya Karya memberikan sanksi/skorsing kepada TKBM/KRK yang tidak mematuhi/melanggar kesepakatan sesuai laporan berita acara pihak PBM dan sektor"
+  [Employment Benefits] @ 169217-169568 : "hingga saat sekarang tetap dipenuhi sekalipun Penggugat tidak melakukan kewajibannya selaku anggota dari Tergugat I, di antaranya kepesertaan Jaminan Sosial Tenaga Kerja (Jamsostek) in casu Jaminan Kecelakaan Kerja (JKK)-Jaminan Hari Tua (JHT)-Jaminan Kematian (JK), Perumahan,Tunjangan Hari Raya (THR), Pakaian, Sepatu, Helm, dan lain-lain sebagainya"
+  [Withholdings] @ 169334-169520 : "di antaranya kepesertaan Jaminan Sosial Tenaga Kerja (Jamsostek) in casu Jaminan Kecelakaan Kerja (JKK)-Jaminan Hari Tua (JHT)-Jaminan Kematian (JK), Perumahan,Tunjangan Hari Raya (THR),"
+  [Tri-lateral relationship] @ 222457-223206 : "Bahwa seluruh anggota Primer Koperasi Tenaga Kerja Bongkar Muat (TKBM) Upaya Karya Pelabuhan Belawan, termasuk Pengurus dan Pengawas Primer Koperasi Tenaga Kerja Bongkar (TKBM) Upaya Karya Pelabuhan Belawan bukanlah sebagai Tenaga Kerja Bongkar Muat (TKBM) atau karyawan dari Primer Koperasi Tenaga Kerja Bongkar Muat (TKBM) Upaya Karya Pelabuhan Belawan yang masuk dalam kategori â€œ hubungan kerjaâ€ akan tetapi hubungan hukum seluruh anggota yang nota bene Tenaga Kerja Bongkar Muat (TKBM) termas..."
+  [Committment] @ 223610-223969 : "memang tidak ada â€œperjanjian kerja baik tertulis dan lisan secara personalâ€œ dalam hal pemborongan pekerjaan (aanneming van werk) yang dilakukan seluruh anggota, Pengurus dan Pengawas Primer Koperasi Tenaga Kerja Bongkar Muat (TKBM) Upaya Karya Pelabuhan Belawan yang nota bene juga berstatus sebagai Tenaga Kerja Bongkar Muat (TKBM) di Pelabuhan Utama Belawan"
+  [Tri-lateral relationship] @ 229892-230111 : "Penggugat merupakan anggota Primkop TKBM Upaya Karya Pelabuhan Belawan berdasarkan kartu anggota, yang ditandatangani Ketua Pengurus Primkop TKBM Upaya Karya Pelabuhan Belawan dan Kepala Otoritas Pelabuhan Utama Belawan"
+  [Managerial Role] @ 230220-230326 : "Penggugat adalah para pekerja/karyawan Tergugat sebagai Tenaga Kerja Bongkar Muat (TKBM) Pelabuhan Belawan"
+  [Length of Employment] @ 230328-230413 : "Penggugat sudah bekerja sebagai tenaga kerja bongkar muat dengan masa kerja 29 tahun."
+  [Supervision] @ 230414-230487 : "Dalam melaksanakan pekerjaannya Penggugat mendapat perintah dari Tergugat"
+  [Remuneration] @ 230492-230547 : "Penggugat mendapat upah dan menerima upah dari Tergugat"
+  [Worker Status] @ 231229-231507 : "Majelis Hakim berpendapat bahwa Penggugat adalah sebagai pekerja/buruh pada Tergugat, sedangkan Tergugat I sebagai Pemberi Kerja, sehingga adanya hubungan kerja antara Penggugat dengan Tergugat I dan gugatan Penggugat pada pokoknya mengenai Perselisihan Pemutusan Hubungan Kerja"
+  [Date] @ 233639-233667 : "Senin, tanggal 6 Maret 2023,"
+  [Date] @ 233877-233905 : "Senin, tanggal 13 Maret 2023"
+
+============================================================
+SOURCE: PN_BDG_210_2020  |  YEAR: 2020.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 2 - The Hirer assigns work, but it can be turned down by the Worker
+  committment: 4 - Written contract stating contractor relationship
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 5 - Other
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 2 - No
+  Distinction: 3 - No Integration (Nothing associating worker as part of business)
+  Employment Benefits: 3 - No
+  Exclusivity: 3 - No, but the worker can work for others WITHOUT permission
+  Independence: 2 - Yes, the Worker is capable but DOES NOT in practice
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 2 - No
+  Managerial Role: 4 - No
+  Manner of Work: 3 - The Worker is free to chose how to complete the task without restrictions
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 6 - Not Applicable/Not Considered
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 3 - Mix of salary and paid by commission/per task without incentives
+  Selection: 3 - Not Applicable/Not Considered
+  Supervision: 2 - No
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 3 - No
+  Tri-lateral relationship: 2 - No
+  Union: 1 - Yes, with permission from the Principal Hirer
+  valid: YES
+  Withholdings: 3 - Not Applicable/Not Considered
+  Work Hours: 4 - The Worker sets their own schedule and work hours
+  Work Location: 3 - The Worker sets the work location without permission
+  Worker Status: 2 - Indepedent Contractor
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-49 : "P U T U S A N\nNOMOR : 210/Pdt.Sus-PHI/2020/PN.Bdg."
+  [Case Name] @ 362-374 : "UMAR PRABOWO"
+  [Case Name] @ 553-565 : "SULISSIYANTO"
+  [Case Name] @ 746-752 : "SUNOTO"
+  [Case Name] @ 1592-1623 : "PT. DIAMOND DIACI ANUGRAH JAYA,"
+  [Integration] @ 4123-4305 : "Bahwa Tergugat adalah Perusahaan yang beralamat di Jl Jawa Blok H 7 No 2 Kawasan MM 2100 Cibitung Kab. Bekasi, Jawa Barat 17520 dan Perusahaan yang bergerak dalam bidangindustri kaca"
+  [Employment Benefits] @ 7950-8029 : "tidak mendapatkan cuti dan hari kerja yang tidak teratur/tidak ada jadwal libur"
+  [Length of Employment] @ 8038-8279 : "ada hari Selasa 12 November 2019, Penggugat 2 ( Sulissiyanto ) dipanggil oleh Tergugat yang kemudian menyampaikan bahwa mulai hari Rabu 13 November 2019 Penggugat\n2 (Sulissiyanto) tidak diperbolehkan narik (tidak boleh mengirim barang)"
+  [Tri-lateral relationship] @ 193096-193150 : "Para Penggugat adalah para pekerja di tempat Tergugat "
+  [Union] @ 193159-193274 : "anggota Serikat Buruh Pimpinan Basis Gabungan Solidaritas Perjuangan Buruh (PB GSPB) PT. Diamond Diaci Anugrah Jaya"
+  [Length of Employment] @ 193306-193447 : "mulai pertama kali bekerja pada Tergugat tanggal 10 Agustus 2001 dan dipekerjakan pada bagian Delivery/Driver, rentang waktu tahun 2003-2004 "
+  [Managerial Role] @ 193393-193416 : "bagian Delivery/Driver,"
+  [Length of Employment] @ 193762-193814 : "mulai pertama kali bekerja tanggal 20 Desember 2011 "
+  [Managerial Role] @ 193830-193870 : " sebagai Driver/sopir pengiriman barang,"
+  [Length of Employment] @ 193944-194102 : "27 Desember 2003 dan dipekerjakan pertama kali sebagai Operator Tempert (Produksi) sebelum dipindahkan ke bagian pengiriman pada rentang waktu tahun 2003-2004"
+  [Managerial Role] @ 193991-194026 : "sebagai Operator Tempert (Produksi)"
+  [Managerial Role] @ 194050-194067 : "bagian pengiriman"
+  [Training] @ 201109-201180 : "menunjukkan SIM sebagai persyaratan utama untuk melaksanakan Pekerjaan,"
+  [Committment] @ 204920-205038 : "Perjanjian Kemitraan antar Tergugat dengan para driver/pengiriman barang yang sama dengan bidang kerja Para Penggugat;"
+  [Contract] @ 204920-204940 : "Perjanjian Kemitraan"
+  [Independence] @ 204963-204992 : "para driver/pengiriman barang"
+  [Remuneration] @ 205070-205145 : "Para Penggugat menyatakan diberikan uang standby bila tidak ada pengiriman "
+  [Minimum Pay or Work] @ 205096-205209 : "diberikan uang standby bila tidak ada pengiriman dan dibayar secara borongan pada setiap adanya pengiriman barang"
+  [Employment Benefits] @ 205096-205118 : "diberikan uang standby"
+  [Remuneration] @ 205149-205210 : "dibayar secara borongan pada setiap adanya pengiriman barang "
+  [Employment Benefits] @ 205323-205403 : "pembayaran dilakukan beberapa kali dalam sebulan sesuai dengan pengiriman barang"
+  [Minimum Pay or Work] @ 205323-205403 : "pembayaran dilakukan beberapa kali dalam sebulan sesuai dengan pengiriman barang"
+  [Supervision] @ 205471-205539 : "menyatakan pengiriman barang dari customer ditawarkan kepada driver,"
+  [Manner of Work] @ 205482-205539 : "pengiriman barang dari customer ditawarkan kepada driver,"
+  [Allocation of Work] @ 205483-205624 : "engiriman barang dari customer ditawarkan kepada driver, dan Driver berhak untuk menerima atau menolak order dari Customer/Pembeli tersebut, "
+  [Exclusivity] @ 205815-206050 : " para driver tidak wajib hadir di perusahaan Tergugat, dan walau tidak standby di perusahaan driver tetap diberi kesempatan menerima order pengiriman serta uang standby hanya diberikan kepada driver yang standby di perusahaan Tergugat;"
+  [Work Hours] @ 205821-206050 : "driver tidak wajib hadir di perusahaan Tergugat, dan walau tidak standby di perusahaan driver tetap diberi kesempatan menerima order pengiriman serta uang standby hanya diberikan kepada driver yang standby di perusahaan Tergugat;"
+  [Disciplinary Action] @ 205821-205868 : "driver tidak wajib hadir di perusahaan Tergugat"
+  [Work Location] @ 205821-205868 : "driver tidak wajib hadir di perusahaan Tergugat"
+  [Allocation of Work] @ 206500-206617 : "bahkan ditentukan sendiri oleh Para Penggugat untuk melakukan pekerjaan atau menolak pekerjaan yang ditawarkan, adil "
+  [Worker Status] @ 206630-206776 : "Majelis Hakim berkesimpulan antara Para Penggugat dengan Tergugat belum terjadi hubungan kerja karena tidak adanya perintah langsung dari Tergugat"
+  [Worker Status] @ 206788-207053 : "bahwa tidak bekerjanya Para Penggugat sejak bulan November 2019 tidak ditemukan bukti dipersidangan adanya Pemutusan Hubungan kerja yang dilakukan Tergugat kepada Para Penggugat, hanya Tergugat tidak lagi memberikan penawaran pengiriman barang kepada Para Penggugat"
+  [Worker Status] @ 207078-207238 : "tidak adanya hubungan kerja antara Para Penggugat dengan Tergugat dan tidak juga terbukti adanya pemutusan hubungan kerja antara Tergugat dengan Para Penggugat,"
+  [Date] @ 208908-208938 : "Senin, tanggal 25 Januari 2021"
+  [Date] @ 209192-209221 : "Rabu, tanggal 27 Januari 2021"
+
+============================================================
+SOURCE: MA_656K_2024  |  YEAR: 2024.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 2 - The Hirer assigns work, but it can be turned down by the Worker
+  committment: 8 - Not Applicable/Not Considered
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 6 - Not Applicable/Not Considered
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 2 - No
+  Distinction: 3 - No Integration (Nothing associating worker as part of business)
+  Employment Benefits: 3 - No
+  Exclusivity: 3 - No, but the worker can work for others WITHOUT permission
+  Independence: 2 - Yes, the Worker is capable but DOES NOT in practice
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 1 - Yes
+  Managerial Role: 4 - No
+  Manner of Work: 3 - The Worker is free to chose how to complete the task without restrictions
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 6 - Not Applicable/Not Considered
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 5 - Paid by Commission/per task only without incentives
+  Selection: 2 - No
+  Supervision: 2 - No
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 3 - No
+  Tri-lateral relationship: 2 - No
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 3 - Not Applicable/Not Considered
+  Work Hours: 4 - The Worker sets their own schedule and work hours
+  Work Location: 3 - The Worker sets the work location without permission
+  Worker Status: 2 - Indepedent Contractor
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-41 : "P U T U S A N\nNomor 656 K/Pdt.Sus-PHI/2024"
+  [Integration] @ 253-276 : "PT DWIHARTA LOGISTINDO,"
+  [Case Name] @ 253-275 : "PT DWIHARTA LOGISTINDO"
+  [Case Name] @ 781-787 : "IDRIS,"
+  [Length of Employment] @ 3437-3460 : "tanggal 4 Desember 2023"
+  [Length of Employment] @ 3615-3703 : "Menyatakan Penggugat sebagai pekerja tetap Tergugat terhitung sejak tanggal 1 Juni 2022;"
+  [Length of Employment] @ 3703-3806 : "Menyatakan putus hubungan kerja antara Penggugat dengan Tergugat terhitung sejak putusan ini diucapkan;"
+  [Worker Status] @ 9594-9934 : "dari seluruh bukti-bukti surat, keterangan saksi dan pendapat saksi ahli yang diajukan Tergugat diketahui secara jelas bahwa hubungan antara Penggugat dengan Tergugat tidak memenuhi unsur-unsur adanya hubungan kerja sebagaimana diatur dalam ketentuan Pasal 1 angka (15) dan Pasal 50 Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan"
+  [Remuneration] @ 10004-10347 : "tidak ada upah yang diterima oleh Penggugat setiap hari atau setiap minggu atau setiap bulannya dari pihak Tergugat kecuali jika ada pekerjaan (narik kendaraan) Penggugat akan memperoleh uang jalan dan uang ritase sisanya merupakan penghasilan Penggugat dan jika tidak ada pekerjaan Penggugat juga tidak bekerja atau tidak melakukan pekerjaan;"
+  [Minimum Pay or Work] @ 10004-10099 : "tidak ada upah yang diterima oleh Penggugat setiap hari atau setiap minggu atau setiap bulannya"
+  [Tri-lateral relationship] @ 10111-10165 : "Tergugat kecuali jika ada pekerjaan (narik kendaraan) "
+  [Independence] @ 10129-10218 : "ika ada pekerjaan (narik kendaraan) Penggugat akan memperoleh uang jalan dan uang ritase "
+  [Training] @ 10137-10165 : "pekerjaan (narik kendaraan) "
+  [Selection] @ 10137-10165 : "pekerjaan (narik kendaraan) "
+  [Integration] @ 10137-10165 : "pekerjaan (narik kendaraan) "
+  [Employment Benefits] @ 10165-10346 : "Penggugat akan memperoleh uang jalan dan uang ritase sisanya merupakan penghasilan Penggugat dan jika tidak ada pekerjaan Penggugat juga tidak bekerja atau tidak melakukan pekerjaan"
+  [Distinction] @ 10347-10626 : "Unsur Perintah, tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja dari pihak Tergugat dan Tergugat tidak memberikan sanksi atas penolakan perintah kerja tersebut baik dengan surat peringatan maupun skorsing;"
+  [Supervision] @ 10363-10412 : "tidak adanya perintah kerja yang bersifat mutlak "
+  [Allocation of Work] @ 10363-10625 : "tidak adanya perintah kerja yang bersifat mutlak dan bersifat subordinatif artinya Penggugat dapat menolak perintah kerja dari pihak Tergugat dan Tergugat tidak memberikan sanksi atas penolakan perintah kerja tersebut baik dengan surat peringatan maupun skorsing"
+  [Disciplinary Action] @ 10509-10625 : "Tergugat tidak memberikan sanksi atas penolakan perintah kerja tersebut baik dengan surat peringatan maupun skorsing"
+  [Distinction] @ 10703-10977 : "Penggugat melaksanakan pekerjaannya pun hanya\nbersifat borongan atau sekali antar (ritase) artinya apabila ada order dari\n\npihak ketiga (customer) maka Penggugat melaksanakan pekerjaan dan jika tidak ada order maka Penggugat tidak ada pekerjaan dan tidak melaksanakan pekerjaan"
+  [Work Hours] @ 10703-10977 : "Penggugat melaksanakan pekerjaannya pun hanya\nbersifat borongan atau sekali antar (ritase) artinya apabila ada order dari\n\npihak ketiga (customer) maka Penggugat melaksanakan pekerjaan dan jika tidak ada order maka Penggugat tidak ada pekerjaan dan tidak melaksanakan pekerjaan"
+  [Exclusivity] @ 10703-10846 : "Penggugat melaksanakan pekerjaannya pun hanya\nbersifat borongan atau sekali antar (ritase) artinya apabila ada order dari\n\npihak ketiga (customer)"
+  [Independence] @ 10748-10846 : "bersifat borongan atau sekali antar (ritase) artinya apabila ada order dari\n\npihak ketiga (customer)"
+  [Managerial Role] @ 10748-10846 : "bersifat borongan atau sekali antar (ritase) artinya apabila ada order dari\n\npihak ketiga (customer)"
+  [Manner of Work] @ 10749-10977 : "ersifat borongan atau sekali antar (ritase) artinya apabila ada order dari\n\npihak ketiga (customer) maka Penggugat melaksanakan pekerjaan dan jika tidak ada order maka Penggugat tidak ada pekerjaan dan tidak melaksanakan pekerjaan"
+  [Work Hours] @ 10989-11215 : "dalam melaksanakan pekerjaannya Penggugat tidak tunduk pada jam kerja sebagaimana diatur dalam undang-undang ketenagakerjaan, karena jam kerja Penggugat sangat tergantung pada jauh dekatnya antaran barang pelanggan (customer),"
+  [Distinction] @ 11122-11215 : "jam kerja Penggugat sangat tergantung pada jauh dekatnya antaran barang pelanggan (customer),"
+  [Work Location] @ 11227-11312 : "Penggugat dapat menerima orderan melalui telepon (tidak harus berada di tempat kerja)"
+  [Worker Status] @ 11435-11687 : "tidak terpenuhinya keseluruhan unsur hubungan kerja yang bersifat kumulatif sebagaimana ketentuan Pasal 1 angka (15) dan Pasal 50 Undang-Undang Nomor 13 Tahun 2003 tentang Ketenagakerjaan juncto Pasal 1 angka 1 Peraturan Pemerintah Nomor 35 Tahun 2021,"
+  [Date] @ 14171-14199 : "Kamis, tanggal 20 Juni 2024 "
+
+============================================================
+SOURCE: PN_MDN_142_2022  |  YEAR: 2022.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 2 - The Hirer assigns work, but it can be turned down by the Worker
+  committment: 6 - Oral Contract without relationship stated
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 6 - Not Applicable/Not Considered
+  Delegation: 2 - Yes, without permission
+  Disciplinary Action: 1 - Yes
+  Distinction: 2 - Some Level of Integration (Business cards, email addresses, badges etc.)
+  Employment Benefits: 2 - Yes, some benefits normally given to employees
+  Exclusivity: 6 - Not Applicable/Not Considered
+  Independence: 3 - No
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 1 - Yes
+  Managerial Role: 4 - No
+  Manner of Work: 1 - The Hirer gives instructions on how to perform the task and the Worker must comply
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 4 - Not Applicable/Not Considered
+  Ownership of Resources: 6 - Not Applicable/Not Considered
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 5 - Paid by Commission/per task only without incentives
+  Selection: 1 - Yes
+  Supervision: 2 - No
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 4 - Not Applicable/Not Considered
+  Tri-lateral relationship: 2 - No
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 3 - Not Applicable/Not Considered
+  Work Hours: 1 - The Hirer sets the work schedule and work hours
+  Work Location: 1 - The Hirer sets the work location
+  Worker Status: 2 - Indepedent Contractor
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-46 : "P U T U S A N\n\nNomor 142/Pdt.Sus-PHI/2022/PN Mdn"
+  [Case Name] @ 312-326 : "PASTI PASARIBU"
+  [Case Name] @ 1287-1304 : "PT. BELAWAN INDAH"
+  [Length of Employment] @ 2774-2899 : "Masuk kerja terhitung sejak bulan Juli 2008 s/d tanggal 15 Januari 2021 atau Masa kerja 12 (dua belas) tahun 7 (tujuh) bulan,"
+  [Committment] @ 9468-9571 : "Bahwa hubungan kerja antara Tergugat dengan Penggugat berdasarkan Perjanjian Kerja dibuat secara Lisan."
+  [Employment Benefits] @ 38325-38486 : "Fotocopy Kartu Peserta Jamsostek (Jaminan Sosial Tenaga Kerja) an. Pasti Pasaribu, tertanggal 06/2009, No. KPJ : 09012574183, selanjutnya diberi tanda bukti P-2;"
+  [Employment Benefits] @ 38486-38629 : "Fotocopy Kartu Peserta BPJS Ketenagakerjaan, No.KPJ : 21009901154, tertanggal 02-2021, an. Pasti Pasaribu , selanjutnya diberi tanda bukti P-3;"
+  [Tri-lateral relationship] @ 51318-51411 : " Penggugat (i.c. PASTI PASARIBU) adalah Eks. Supir Trailer Tergugat (i.c. PT. BELAWAN INDAH),"
+  [Integration] @ 51319-51410 : "Penggugat (i.c. PASTI PASARIBU) adalah Eks. Supir Trailer Tergugat (i.c. PT. BELAWAN INDAH)"
+  [Managerial Role] @ 51319-51410 : "Penggugat (i.c. PASTI PASARIBU) adalah Eks. Supir Trailer Tergugat (i.c. PT. BELAWAN INDAH)"
+  [Length of Employment] @ 51412-51537 : "Masuk kerja terhitung sejak bulan Juli 2008 s/d tanggal 15 Januari 2021 atau Masa kerja 12 (dua belas) tahun 7 (tujuh) bulan,"
+  [Integration] @ 51774-52031 : "Bahwa Tergugat bergerak dalam bidang usaha Caroseries, Used\nTrucks, Trailer Parts Trading dan Jasa Pengangkutan/Transportasi Truck Trailer, Dump Truck dan Loss Bak dan usaha lainnya dan memiliki PERATURAN PERUSAHAAN PT. BELAWAN INDAH tertanggal 03\n\nMaret 2014,"
+  [Work Hours] @ 52405-52733 : "Bahwa Penggugat bekerja sebagai Supir Truck Trailer di perusahaan Tergugat dan diwajibkan masuk ke Kantor Tergugat pada hari Senin s/d hari Jumat Pukul 08.30 Wib s/d Pukul 17.00 Wib dan pada hari Sabtu Pukul 08.30 Wib s/d Pukul 12.30 Wib, dan apabila dihitung kehadiran perbulan sebanyak 24 (dua puluh empat) hari setiap bulan ;"
+  [Integration] @ 52733-52781 : "Bahwa Penggugat diwajibkan masuk kantor Tergugat"
+  [Work Hours] @ 52733-52834 : "Bahwa Penggugat diwajibkan masuk kantor Tergugat menunggu perintah kerja dari Tergugat melalui Mandor"
+  [Work Location] @ 52733-52781 : "Bahwa Penggugat diwajibkan masuk kantor Tergugat"
+  [Allocation of Work] @ 52782-53263 : "menunggu perintah kerja dari Tergugat melalui Mandor dan Penggugat dalam waktu menunggu Perintah Kerja diberikan Uang Makan dan mencek kondisi Truck Trailer agar tetap baik dan apabila Penggugat menolak perintah dari Tergugat, maka dikenakan sanksi Tergugat melakukan tindakan Sanksi Peringatan/Teguran Lisan maupun Tertulis kepada Penggugat, dan apabila juga tidak mengindahkannya, maka Tergugat mengancam akan melakukan Pemutusan Hubungan Kerja (PHK) Sepihak terhadap Penggugat ;"
+  [Disciplinary Action] @ 52959-53261 : "apabila Penggugat menolak perintah dari Tergugat, maka dikenakan sanksi Tergugat melakukan tindakan Sanksi Peringatan/Teguran Lisan maupun Tertulis kepada Penggugat, dan apabila juga tidak mengindahkannya, maka Tergugat mengancam akan melakukan Pemutusan Hubungan Kerja (PHK) Sepihak terhadap Penggugat"
+  [Integration] @ 53263-53491 : "Bahwa kegiatan usaha Tergugat adalah Jasa Pengangkutan/Transportasi ke Luar Kota Medan dan Dalam Kota Medan, tentunya Tergugat dalam menjalankan kegiatan usahanya sangat memerlukan Penggugat sebagai Supir Truck Trailer di"
+  [Work Location] @ 53263-53491 : "Bahwa kegiatan usaha Tergugat adalah Jasa Pengangkutan/Transportasi ke Luar Kota Medan dan Dalam Kota Medan, tentunya Tergugat dalam menjalankan kegiatan usahanya sangat memerlukan Penggugat sebagai Supir Truck Trailer di"
+  [Integration] @ 53551-53778 : "perusahaan Tergugat dan usaha Tergugat tersebut telah berlangsung selama puluhan tahun dan Penggugat telah bekerja diperusahaan Tergugat selama 12 (dua belas) tahun 7 (tujuh) bulan secara terus menerus dan tidak pernah terputus"
+  [Selection] @ 53871-54019 : "persyaratan berupa Photo Copy KTP, Kartu Keluarga, Pas Photo dan Surat Izin Mengemudi (SIM) Khusus Supir Truck Trailer dan Surat Lamaran Pekerjaan. "
+  [Independence] @ 54019-54168 : "Kemudian setelah diterima, Tergugat memerintahkan Penggugat bekerja untuk mengangkut dan mengantar barang ke luar Kota Medan dan kedalam Kota Medan d"
+  [Remuneration] @ 54171-54298 : "Tergugat memberikan imbalan kepada Penggugat berupa UPAH dan UANG JALAN BARANG dan TONASE yang sudah ditentukan oleh Tergugat ;"
+  [Manner of Work] @ 54976-55256 : " dimana setiap ada orderan barang borongan yang akan diangkut selalu dilakukan pemanggilan dan kemudian melakukan penawaran kepada Penggugat selaku supir akan kesanggupannya untuk membawa barang yang akan dianagkut ke tempat yang dituju ke luar kota dengan biaya/ ongkos tertertu;"
+  [Remuneration] @ 55256-55473 : "Bahwa barang yang akan diangkut tersebut adalah milik pihak lain ( bukan milik Tergugat) dan penawaran atas besaran biayanya/ongkos untuk mengangkut barang tersebut telah diperhitungkan akan jarak tempuh dan tonasenya"
+  [Allocation of Work] @ 55535-56161 : "Bahwa jika Penggugat menyanggupinya/ setuju dengan besaran biaya yang ditawarkan oleh Tergugat untuk mengangkut barang ke tempat yang dituju maka baru Penggugat bergerak untuk membawa barang tersebut ;\nBahwa apabila Penggugat tidak setuju/ tidak menyanggupinya maka Tergugat akan menyerahkan kepada Pihak / Supir yang bersedia / menyanggupinya untuk mengantarkan barang tersebut dengan besaran biaya yang ditawarkan ;\nBahwa dengan demikian Penggugat dapat menolak tawaran Tergugat untuk mengangkat ..."
+  [Delegation] @ 56056-56161 : "bahkan Penggugat dapat menunjuk Supir yang bersedia untuk itu, sehingga secara hukum tidak ada perintah ;"
+  [Integration] @ 60907-61430 : "bahwa kegiatan usaha Tergugat adalah Jasa Pengangkutan/Transportasi ke Dalam Kota Medan maupun ke Luar Kota Medan, tentunya Tergugat dalam menjalankan kegiatan usahanya sangat memerlukan Penggugat sebagai Supir Truck Trailer di perusahaan Tergugat dan usaha Tergugat tersebut telah berlangsung selama puluhan tahun dan Penggugat juga telah bekerja diperusahaan Tergugat selama 14 (empat belas) tahun 8 (delapan) bulan sejak tanggal 25 November 2006 s/d tanggal 26 Juli 2021, secara terus menerus dan ..."
+  [Distinction] @ 62007-62205 : "memiliki bukti Penggugat selaku Supir Truck Trailer di perusahaan Tergugat adalah Tergugat mengeluarkan bukti DRIVER ID CARD (Kartu Identitas Supir) selaku Supir Truck Trailer di perusahaan Tergugat"
+  [Remuneration] @ 62271-62544 : "Penggugat dengan Tergugat adalah sebagai supir truk trailer dengan system borongan yang dihitung dengan jarak tempuh dan upah yang membawa ditawarkan dan biayanya dinegosiasikan antara supir dengan Tergugat sebagaimana bukti keterangan saksi- saksi Tergugat di persidangan "
+  [Remuneration] @ 62556-62924 : "bahwa yang diperuntukan kepada supir digunakan untuk pembelian BBM, uang makan dll,dan untuk Perusahaan (ic. Tergugat) sebesar adalah bersumber dari Pihak Konsumen yang menggunakan jasa transportasi, sehingga supir tidak ada gaji atau upah baik harian, mingguan ataupun bulanan dari Tergugat justru melainkan dari bagi hasil ongkos borongan per tripnya dari konsumen ;"
+  [Remuneration] @ 63068-63259 : "maka Penggugat menerima jasa berupa uang yang sudah termasuk didalam pada saat pengambilan uang jalan, sebagaimana bukti surat berupa bukti pengambilan uang jalan yang diajukan oleh Tergugat "
+  [Minimum Pay or Work] @ 63260-63686 : "Menimbang, bahwa supir tidak terikat dengan absensi kehadiran, dan apa bila supir dan kernek tidak cocok dengan ongkos maka borongan tidak jadi diserahkan, jika ada borongan ada kerja akan tetapi jika tidak ada borongan maka tidak ada kerja, sehingga supir ingin keluar dan kerja di perusahaan atau ditempat lain cukup disampaikan kepada Perusahaan Tergugat, sebagaimana bukti keterangan saksi â€“ saksi Tergugat dipersidangan ;"
+  [Supervision] @ 63271-63416 : "bahwa supir tidak terikat dengan absensi kehadiran, dan apa bila supir dan kernek tidak cocok dengan ongkos maka borongan tidak jadi diserahkan, "
+  [Worker Status] @ 64088-64281 : " bahwa berdasarkan beberapa pertimbangan tersebut diatas maka Majelis Hakim berpendapat bahwa terhadap hubungan kerja yang terjadi antara Penggugat dengan Tergugat tidak memenuhi syarat Materil"
+  [Worker Status] @ 64583-64886 : "bahwa hubungan kerja antara Penggugat dan Tergugat yang tidak memenuhi syarat Materil ataupun Formal sebagaimana yang diamanatkan oleh ketentuan Hukum dimaksud diatas maka Majelis Hakim berpendapat dan menilai hubungan kerja antara Penggugat dengan Tergugat adalah hubungan kerja yang bersifat informal,"
+  [Date] @ 68137-68167 : "Rabu, tanggal 21 Desember 2022"
+
+============================================================
+SOURCE: PN_MDN_71_2024  |  YEAR: 2024.0
+
+CLASSIFICATIONS:
+  Allocation of Work: 1 - The Hirer assigns work, and it cannot be turned down by the Worker
+  committment: 5 - Written contract without relationship stated
+  Compliance: 4 - Not Applicable/Not Considered
+  contract: 5 - Other
+  Delegation: 5 - Not Applicable/Not Considered
+  Disciplinary Action: 1 - Yes
+  Distinction: 4 - Not Applicable/Not Considered
+  Employment Benefits: 4 - Not Applicable/Not Considered
+  Exclusivity: 5 - Yes, the worker does majority of work for others
+  Independence: 2 - Yes, the Worker is capable but DOES NOT in practice
+  Insurance: 4 - Not Applicable/Not Considered
+  Integration: 1 - Yes
+  Managerial Role: 4 - No
+  Manner of Work: 4 - Not Applicable/Not Considered
+  Minimum Pay or Work: 4 - No
+  Opportunity for Loss: 2 - Minor risk (pays for some expenses/have some money invested, but not liable for losses to the Hirer's business)
+  Ownership of Resources: 6 - Not Applicable/Not Considered
+  Payment Procedure: 3 - Not Applicable/Not Considered
+  Remuneration: 5 - Paid by Commission/per task only without incentives
+  Selection: 1 - Yes
+  Supervision: 1 - Yes
+  Termination Date: 3 - Not Applicable/Not Considered
+  Third Party Risk: 3 - Not Applicable/Not Considered
+  Training: 4 - Not Applicable/Not Considered
+  Tri-lateral relationship: 2 - No
+  Union: 3 - Not Applicable/Not Considered
+  valid: YES
+  Withholdings: 3 - Not Applicable/Not Considered
+  Work Hours: 1 - The Hirer sets the work schedule and work hours
+  Work Location: 1 - The Hirer sets the work location
+  Worker Status: 1 - Employee
+
+ANNOTATED SPANS (label | global char range | extracted text):
+  [Case Number] @ 0-45 : "P U T U S A N\nNomor 71/Pdt.Sus-PHI/2024/PN Mdn"
+  [Case Name] @ 303-328 : "INDAH PERMATA SARI SITEPU"
+  [Case Name] @ 1108-1127 : "STUDIO/MEDAN MUSIK)"
+  [Remuneration] @ 2731-2922 : "upah terahir 42,5% dihitung berdasarkan uang sekolah yang dibayarkan oleh jumlah murid yang diajar, dengan upah terahir sepanjang tahun 2023 (Januari s/d Juli) rata-rata sebesar Rp667.250,00 "
+  [Remuneration] @ 2985-3119 : "setiap bulannya dan jam kerja dihitung berdasarkan jumlah murid dengan perhitungan setengah jam kerja untuk mengajar satu orang murid;"
+  [Remuneration] @ 3119-3230 : "Artinya, semakin banyak murid maka semakin banyak upah yang diterima dan semakin tinggi jam kerja yang dilalui;"
+  [Work Hours] @ 4247-4560 : "Bahwa Penggugat sebagai guru vocal diperusahaan Tergugat memiliki kewajiban- kewajiban yang harus dilaksanakan atas perintah Tergugat yaitu berupa mengisi time table (jadwal guru membuka kelas) dimana Penggugat membuka kelas dari hari selasa hingga hari minggu, mendampingi siswa untuk performance diluar kegiatan"
+  [Work Location] @ 4448-4560 : "Penggugat membuka kelas dari hari selasa hingga hari minggu, mendampingi siswa untuk performance diluar kegiatan"
+  [Work Hours] @ 4626-4731 : "kelas pada perusahaan Tergugat, ikut master class vocal, mengikut sertakan siswa dalam home concer vocal,"
+  [Work Location] @ 4626-4731 : "kelas pada perusahaan Tergugat, ikut master class vocal, mengikut sertakan siswa dalam home concer vocal,"
+  [Supervision] @ 4752-4838 : "apabila perintah kerja tersebut tidak dilaksanakan ada tindakan disiplin atau sanksi b"
+  [Disciplinary Action] @ 4752-4960 : "apabila perintah kerja tersebut tidak dilaksanakan ada tindakan disiplin atau sanksi berupa Surat Peringatan ataupun berupa penahanan gaji ataupun berupa tidak diberikan siswa baru dalam waktu yang ditentukan"
+  [Allocation of Work] @ 4752-4961 : "apabila perintah kerja tersebut tidak dilaksanakan ada tindakan disiplin atau sanksi berupa Surat Peringatan ataupun berupa penahanan gaji ataupun berupa tidak diberikan siswa baru dalam waktu yang ditentukan;"
+  [Exclusivity] @ 6956-7038 : "penggugat itu karena sejak penggugat menjadi Pegawai Negeri Sipil (PNS) sejak 2019"
+  [Exclusivity] @ 7040-7327 : "Pengggugat dianggap tidak bisa memenuhi jam kerja sebagaimana yang telah disepakati yaitu 16 jam selama seminggu, padahal penggugat telah membuka time table (jadwal membuka kelas) dari selasa sampai dengan hari minggu, namun karena masa Covid-19 sejak tahun 2019 sampai dengan tahun 2021"
+  [Exclusivity] @ 8053-8271 : " sebagai PNS, Penggugat masuk pagi sampai dengan siang sementara sebagai guru vocal di Perusahaan Tergugat itu masuk siang/sore kemalam, artinya masih bisa disesuaikan dan Penggugat tidak pernah ada masalah dengan itu;"
+  [Opportunity for Loss] @ 8564-9094 : "kebijakan tentang biaya fotocopy partitur master class yang dibebankan ke guru vocal sebanyak 11 (sebelas) rangkap padahal guru-guru vocal pada perusahaan Tergugat melalui kebijakan perusahaan Tergugat mewajibkan semua guru vocal untuk ikut program pendidikan Master Class Vocal yang dilakukan sekitar 1 (satu) s/d 2 (dua) kali setahun oleh Tergugat dan biaya ditanggung oleh guru-guru vocal pada perusahaan Tergugat dengan membayar sebesar Rp400.000,00 (empat ratus ribu rupiah) per orang dengan car..."
+  [Managerial Role] @ 55717-55741 : "yakni sebagai guru vocal"
+  [Independence] @ 55717-55741 : "yakni sebagai guru vocal"
+  [Managerial Role] @ 55723-55741 : "sebagai guru vocal"
+  [Integration] @ 55723-55741 : "sebagai guru vocal"
+  [Tri-lateral relationship] @ 55723-55741 : "sebagai guru vocal"
+  [Independence] @ 55723-55741 : "sebagai guru vocal"
+  [Selection] @ 55731-55741 : "guru vocal"
+  [Length of Employment] @ 55743-55807 : "terhitung sejak sejak 30 April 2009 sampai dengan 1 Agustus 2023"
+  [Minimum Pay or Work] @ 55809-55923 : "menerima upah berdasarkan satuan hasil dengan rata-rata pada periode Januari- Juli 2023 hanya sebesar Rp667.250,00"
+  [Remuneration] @ 55809-55923 : "menerima upah berdasarkan satuan hasil dengan rata-rata pada periode Januari- Juli 2023 hanya sebesar Rp667.250,00"
+  [Committment] @ 59503-59573 : "berupa Surat Perjanjian Kerja Tenaga Pengajar bertanggal 30 April 2009"
+  [Contract] @ 59510-59548 : "Surat Perjanjian Kerja Tenaga Pengajar"
+  [Managerial Role] @ 60727-60761 : "sebagai guru terbaik jurusan vokal"
+  [Tri-lateral relationship] @ 60727-60761 : "sebagai guru terbaik jurusan vokal"
+  [Managerial Role] @ 60834-60868 : "sebagai guru terbaik jurusan vokal"
+  [Integration] @ 62206-62445 : "berupa halaman profil Medan Musik yang di dapat melalui website resmi Medan Musik yaitu berdasarkan website medanmusik.id, diketahui bahwa Medan Musik bergerak dibidang penjualan alat musik & sound system, pendidikan kesenian & kreativitas"
+  [Worker Status] @ 63070-63355 : "bahwa berdasarkan pertimbangan-pertimbangan hukum sebagaimana telah diuraikan diatas, maka terbukti bahwa Penggugat merupakan pekerja pada Tergugat dengan jabatan sebagai guru vocal terhitung sejak sejak 30 April 2009 dan telah diputuskan hubungan kerjanya pada tanggal 1 Agustus 2023,"
+  [Length of Employment] @ 63365-63425 : "masa kerja Penggugat diperhitungkan selama 14 Tahun 3 Bulan;"
+  [Minimum Pay or Work] @ 63436-63550 : "bahwa oleh karena upah yang diperoleh Penggugat berdasarkan satuan hasil ternyata dibawah ketentuan upah minimum, "
+  [Integration] @ 71870-71995 : " PT.Citra Perdana Sejahtera merupakan usaha menjual alat alat musik sedangkan Medan Musik merupakan Lembaga Kursus Pendidikan"
+  [Date] @ 75698-75728 : "Kamis, tanggal 29 Agustus 2024"
+  [Date] @ 75977-76009 : "Senin, tanggal 2 September 2024,"
+
+
