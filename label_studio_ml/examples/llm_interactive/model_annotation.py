@@ -1,6 +1,7 @@
 import logging
 import json
 import os
+import re
 
 from bs4 import BeautifulSoup
 from typing import List, Dict, Optional
@@ -135,6 +136,14 @@ FIELDS AND VALID OPTIONS:
     # manually during review.
     def _parse_response(self, response: str) -> List[Dict]:
         regions = []
+        response = response.strip()
+        if not response:
+            logger.warning('GPT returned empty response — skipping parse')
+            return regions
+        # strip markdown code fences if present
+        if response.startswith('```'):
+            response = re.sub(r'^```(?:json)?\s*', '', response)
+            response = re.sub(r'\s*```$', '', response)
         data = json.loads(response)
         for field_name, value in data.items():
             if field_name in self.TEXTAREA_FIELDS:
