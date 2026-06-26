@@ -114,7 +114,7 @@ FIELDS AND VALID OPTIONS:
 
 - Comments (String): Free text. Write any relevant observations about the case that do not fit the above fields. Write "" if none."""
 
-        return f"{schema}\n\nHere are 10 annotated examples:\n\n{self.few_shot_examples}"
+        return f"{schema}\n\nHere are 10 annotated examples, with outputs truncated at 500chars if applicable:\n\n{self.few_shot_examples}"
 
     TEXTAREA_FIELDS = {"LOE", "Comments"}
     CHOICES_FIELDS = {

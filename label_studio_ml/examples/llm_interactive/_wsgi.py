@@ -30,7 +30,7 @@ logging.config.dictConfig({
 })
 
 from label_studio_ml.api import init_app
-from model import OpenAIInteractive
+from model_annotation import AutoAnnotationAICall
 
 
 _DEFAULT_CONFIG_PATH = os.path.join(os.path.dirname(__file__), 'config.json')
@@ -111,13 +111,13 @@ if __name__ == "__main__":
         kwargs.update(parse_kwargs())
 
     if args.check:
-        print('Check "' + OpenAIInteractive.__name__ + '" instance creation..')
-        model = OpenAIInteractive(**kwargs)
+        print('Check "' + AutoAnnotationAICall.__name__ + '" instance creation..')
+        model = AutoAnnotationAICall(**kwargs)
 
-    app = init_app(model_class=OpenAIInteractive, basic_auth_user=args.basic_auth_user, basic_auth_pass=args.basic_auth_pass)
+    app = init_app(model_class=AutoAnnotationAICall, basic_auth_user=args.basic_auth_user, basic_auth_pass=args.basic_auth_pass)
 
     app.run(host=args.host, port=args.port, debug=args.debug)
 
 else:
     # for uWSGI use
-    app = init_app(model_class=OpenAIInteractive)
+    app = init_app(model_class=AutoAnnotationAICall)
