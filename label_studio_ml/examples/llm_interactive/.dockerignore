@@ -1,4 +1,4 @@
-# Exclude everything
+﻿# Exclude everything
 **
 
 # Include Dockerfile and docker-compose for reference (optional, decide based on your use case)
@@ -16,3 +16,4 @@
 
 # Exclude specific requirements if necessary
 !default_prompt.txt
+!few_shot_examples.txt
