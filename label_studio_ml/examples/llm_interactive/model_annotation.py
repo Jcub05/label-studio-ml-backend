@@ -21,12 +21,16 @@ class AutoAnnotationAICall(LabelStudioMLBase):
     FEW_SHOT_PATH = os.getenv('FEW_SHOT_PATH', 'few_shot_examples.txt')
 
     def setup(self):
+        self._load_few_shot_examples()
+
+    def _load_few_shot_examples(self):
         if self.FEW_SHOT_PATH and os.path.isfile(self.FEW_SHOT_PATH):
             with open(self.FEW_SHOT_PATH, 'r', encoding='utf-8') as f:
                 self.few_shot_examples = f.read()
+            logger.info(f'Loaded {len(self.few_shot_examples)} chars of few-shot examples from {self.FEW_SHOT_PATH}')
         else:
             self.few_shot_examples = ''
-            logger.warning('FEW_SHOT_PATH not set or file not found — few-shot examples will be empty')
+            logger.warning(f'FEW_SHOT_PATH not set or file not found ({self.FEW_SHOT_PATH}) — few-shot examples will be empty')
 
     def _strip_html(self, html: str) -> str:
         return BeautifulSoup(html, 'html.parser').get_text()
@@ -39,6 +43,8 @@ class AutoAnnotationAICall(LabelStudioMLBase):
         return (task_data_nohtml, task_source, task_year)
 
     def _build_system_prompt(self) -> str:
+        if not hasattr(self, 'few_shot_examples'):
+            self._load_few_shot_examples()
         schema = """You are an expert legal annotator specializing in Indonesian employment law cases.
 
 Given a court document, read it carefully and classify it using EXACTLY the fields and valid options below.
@@ -52,58 +58,94 @@ FIELDS AND VALID OPTIONS:
 - valid (choice): ["YES", "NO"]
 
 - Tri-lateral relationship (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
+  Q: Does the Worker provide services under an independent service company?
+  Note: This should be a named, privately formed company.
 
 - Managerial Role (choice): ["1 - Upper/Executive Management", "2 - Middle Management", "3 - Operational/Lower Management", "4 - No", "5 - Not Applicable/Not Considered"]
+  Q: Is the Worker in a managerial role?
+  Note: Workers in a managerial role could suggest more of an employee relationship.
 
 - committment (choice): ["1 - Written contract stating employee relationship", "2 - Oral contract stating employee relationship", "3 - Oral contract stating contractor relationship", "4 - Written contract stating contractor relationship", "5 - Written contract without relationship stated", "6 - Oral Contract without relationship stated", "7 - None", "8 - Not Applicable/Not Considered"]
+  Q: Is there a contract in place stating the working relationship between the Principal and the Worker?
+  Note: The contract demonstrates the Parties' intentions regarding the work relationship. However, it is important to note that this is only a minor factor in determining worker status.
 
 - contract (choice): ["1 - Indefinite Full-Time Contract", "2 - Indefinite Part-Time Contract", "3 - Fixed Term Full-Time Contract", "4 - Fixed Term Part-Time Contract", "5 - Other", "6 - Not Applicable/Not Considered"]
 
 - Termination Date (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
+  Q: Is this working relationship terminated after a fixed date or after completion of the set objectives or tasks?
+  Note: Contractors typically work for a set task, project or period.
 
 - Minimum Pay or Work (choice): ["1 - Yes, work only", "2 - Yes, pay only", "3 - Yes, both pay and work", "4 - No", "5 - Not Applicable/Not Considered"]
 
 - Insurance (choice): ["1 - Worker solely supplies liability insurance", "2 - Both Worker and Principal contributes to liability insurance", "3 - Hirer solely supplies liability insurance", "4 - Not Applicable/Not Considered"]
 
 - Employment Benefits (choice): ["1 - Yes, all benefits normally given to employees", "2 - Yes, some benefits normally given to employees", "3 - No", "4 - Not Applicable/Not Considered"]
+  Q: Is the Worker entitled to employment-like benefits?
+  Note: Employees are typically provided with employment benefits, which may include paid time off, health and dental coverage, pension contributions, among others.
 
 - Independence (choice): ["1 - Yes, and the Worker does in practice", "2 - Yes, the Worker is capable but DOES NOT in practice", "3 - No", "4 - Not Applicable/Not Considered"]
 
 - Selection (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
+  Q: Is the Worker hired for their unique skills, expertise, or talent that distinguishes them from ordinary employees?
+  Note: Contractors often present themselves as possessing unique skills, expertise, or talent that distinguishes them from ordinary employees.
 
 - Integration (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
+  Q: Is the Worker performing activities which are usually necessary or desirable in the usual business or trade of the Principal?
+  Note: Contractors tend to perform tasks that are not part of the Principal's core business.
 
 - Training (choice): ["1 - Yes, the Worker requires substantial training or education necessary for their job", "2 - Yes, the Worker requires some training or education ancillary for their job", "3 - No", "4 - Not Applicable/Not Considered"]
 
 - Remuneration (choice): ["1 - Salary/Fixed Wages only without bonus", "2 - Salary/Fixed Wages with opportunity for incentives", "3 - Mix of salary and paid by commission/per task without incentives", "4 - Mix of salary and paid by commission/per task with opportunity for incentives", "5 - Paid by Commission/per task only without incentives", "6 - Paid by Commission/per task with opportunity for incentives", "7 - Not Applicable/Not Considered"]
+  Q: How is the Worker remunerated?
+  Note: Workers paid a salary or by the hour tend to suggest an employment relationship. Workers who are paid by the task tend to suggest a contractor relationship.
 
 - Payment Procedure (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
 
 - Opportunity for Loss (choice): ["1 - No risk", "2 - Minor risk (pays for some expenses/have some money invested, but not liable for losses to the Hirer's business)", "3 - High risk (pays for expenses/have money invested, AND liable for lossess to Hirer's business", "4 - Not Applicable/Not Considered"]
+  Q: Is the Worker responsible for financial losses resulting from the activity?
+  Note: Employees are generally not held liable for financial losses.
 
 - Third Party Risk (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
 
 - Withholdings (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
+  Q: Is the Principal responsible for adding the Worker to the payroll and deducting taxes and other mandatory contributions (e.g. Social Security, Health Insurance, and Employment Insurance)?
+  Note: Employers are typically responsible for managing payroll, including the remittance of taxes and mandatory employment contributions on behalf of their employees.
 
 - Supervision (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
+  Q: Does the Principal supervise the Worker?
+  Note: Supervision is an indication of control. Workers subject to supervision tend to suggest an employment relationship.
 
 - Disciplinary Action (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
+  Q: Is the Worker subject to disciplinary action by the Principal?
+  Note: Workers subject to disciplinary action tend to suggest an employment relationship.
 
 - Compliance (choice): ["1 - Yes, the hirer is required to verify that the worker is complying with local laws and regulation", "2 - No, the hirer is not required to ensure that the worker complies with local laws", "3 - No, the worker can refuse to disclosure these information", "4 - Not Applicable/Not Considered"]
 
 - Allocation of Work (choice): ["1 - The Hirer assigns work, and it cannot be turned down by the Worker", "2 - The Hirer assigns work, but it can be turned down by the Worker", "3 - The Worker decides the work with approval from the Hirer", "4 - The Worker decides the work WITHOUT approval", "5 - Not Applicable/Not Considered"]
+  Q: Who decides what work is done?
+  Note: Employees are subject to greater control by their employer and are typically required to perform assigned tasks without the option to decline them.
 
 - Manner of Work (choice): ["1 - The Hirer gives instructions on how to perform the task and the Worker must comply", "2 - The Worker decides how to complete the task, but must comply with the requirements set by the Hirer or seek permission from the Hirer", "3 - The Worker is free to chose how to complete the task without restrictions", "4 - Not Applicable/Not Considered"]
+  Q: Who decides in what manner the work must be done?
+  Note: The greater control a Principal has over how a Worker performs a task, the more likely it is to indicate an employment relationship.
 
 - Work Hours (choice): ["1 - The Hirer sets the work schedule and work hours", "2 - The Hirer sets the work hours, but the Worker sets the schedule", "3 - The Worker sets the work hours, but the Hirer sets the schedule", "4 - The Worker sets their own schedule and work hours", "5 - Not Applicable/Not Considered"]
+  Q: Who controls the work hours?
+  Note: Employees are subject to greater control by their employer, including adherence to work hours set by the employer.
 
 - Work Location (choice): ["1 - The Hirer sets the work location", "2 - The Worker sets the work location with permission from the Hirer", "3 - The Worker sets the work location without permission", "4 - Not Applicable/Not Considered"]
+  Q: Who decides the work location?
+  Note: Employees are subject to greater control by their employer, including adherence to the work location set by the employer.
 
 - Ownership of Resources (choice): ["1 - The Hirer owns/provides all of the resources", "2 - The Hirer owns/provides most of the resources, but not all the necessary ones", "3 - Both Parties own/provide equal proportions of resources", "4 - The Worker owns/provides most of the resources, but not all the necessary ones", "5 - The Worker owns/provides all of the resources", "6 - Not Applicable/Not Considered"]
+  Q: Who supplies the resources needed for the job (i.e. tools, equipment, machines)?
+  Note: Contractors tend to provide their own equipment.
 
 - Distinction (choice): ["1 - High Level of Integration (Required to wear uniform, listed on company directories, held out as employee etc.)", "2 - Some Level of Integration (Business cards, email addresses, badges etc.)", "3 - No Integration (Nothing associating worker as part of business)", "4 - Not Applicable/Not Considered"]
 
 - Exclusivity (choice): ["1 - No, the worker works exclusively for the Hirer", "2 - No, but the worker can others WITH permission from the Hirer", "3 - No, but the worker can work for others WITHOUT permission", "4 - Yes, the worker works equal amounts with the hirer and others", "5 - Yes, the worker does majority of work for others", "6 - Not Applicable/Not Considered"]
+  Q: Does the Worker take on additional jobs with other clients?
+  Note: Employees tend to have little flexibility to take on additional jobs outside of their principal employer.
 
 - Delegation (choice): ["1 - Yes, with permission from the Principal Hirer", "2 - Yes, without permission", "3 - Yes, Permission unstated", "4 - No", "5 - Not Applicable/Not Considered"]
 
