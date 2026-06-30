@@ -17,7 +17,7 @@ logger = logging.getLogger(__name__)
 
 class AutoAnnotationAICall(LabelStudioMLBase):
     OPENAI_KEY = os.getenv('OPENAI_API_KEY')
-    OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-4o')
+    OPENAI_MODEL = os.getenv('OPENAI_MODEL', 'gpt-5.4-nano')
     FEW_SHOT_PATH = os.getenv('FEW_SHOT_PATH', 'few_shot_examples.txt')
 
     def setup(self):
@@ -72,8 +72,6 @@ FIELDS AND VALID OPTIONS:
 - contract (choice): ["1 - Indefinite Full-Time Contract", "2 - Indefinite Part-Time Contract", "3 - Fixed Term Full-Time Contract", "4 - Fixed Term Part-Time Contract", "5 - Other", "6 - Not Applicable/Not Considered"]
 
 - Termination Date (choice): ["1 - Yes", "2 - No", "3 - Not Applicable/Not Considered"]
-  Q: Is this working relationship terminated after a fixed date or after completion of the set objectives or tasks?
-  Note: Contractors typically work for a set task, project or period.
 
 - Minimum Pay or Work (choice): ["1 - Yes, work only", "2 - Yes, pay only", "3 - Yes, both pay and work", "4 - No", "5 - Not Applicable/Not Considered"]
 
